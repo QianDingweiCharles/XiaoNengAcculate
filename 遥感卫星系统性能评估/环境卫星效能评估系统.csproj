@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB5FF2B4-A7F4-4948-AB4B-917346DD6F5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>遥感卫星系统性能评估</RootNamespace>
+    <AssemblyName>遥感卫星系统性能评估</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathNet.Numerics, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.4.7.0\lib\net40\MathNet.Numerics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accuracyPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accuracyPerformance.Designer.cs">
+      <DependentUpon>accuracyPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="appEff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="appEff.Designer.cs">
+      <DependentUpon>appEff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="appPerform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="appPerform.Designer.cs">
+      <DependentUpon>appPerform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="appSatisfyEff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="appSatisfyEff.Designer.cs">
+      <DependentUpon>appSatisfyEff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="basePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="basePerformance.Designer.cs">
+      <DependentUpon>basePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comPerformance.Designer.cs">
+      <DependentUpon>comPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="coveragePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coveragePerformance.Designer.cs">
+      <DependentUpon>coveragePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="coverPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coverPerformance.Designer.cs">
+      <DependentUpon>coverPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="coverRangeEff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coverRangeEff.Designer.cs">
+      <DependentUpon>coverRangeEff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="coverspacePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="coverspacePerformance.Designer.cs">
+      <DependentUpon>coverspacePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datagetPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datagetPerformance.Designer.cs">
+      <DependentUpon>datagetPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datasolvePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datasolvePerformance.Designer.cs">
+      <DependentUpon>datasolvePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datatransportPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datatransportPerformance.Designer.cs">
+      <DependentUpon>datatransportPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="equipmentPerform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="equipmentPerform.Designer.cs">
+      <DependentUpon>equipmentPerform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="informationPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="informationPerformance.Designer.cs">
+      <DependentUpon>informationPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="observerAbility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="observerAbility.Designer.cs">
+      <DependentUpon>observerAbility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="performance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>performance.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="radiationPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="radiationPerformance.Designer.cs">
+      <DependentUpon>radiationPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spcePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spcePerformance.Designer.cs">
+      <DependentUpon>spcePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spectrumPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spectrumPerformance.Designer.cs">
+      <DependentUpon>spectrumPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="starLandResourceEff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="starLandResourceEff.Designer.cs">
+      <DependentUpon>starLandResourceEff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="systemContriRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="systemContriRate.Designer.cs">
+      <DependentUpon>systemContriRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="taskResponseEff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="taskResponseEff.Designer.cs">
+      <DependentUpon>taskResponseEff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="timePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timePerformance.Designer.cs">
+      <DependentUpon>timePerformance.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="accuracyPerformance.resx">
+      <DependentUpon>accuracyPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="appEff.resx">
+      <DependentUpon>appEff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="appPerform.resx">
+      <DependentUpon>appPerform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="appSatisfyEff.resx">
+      <DependentUpon>appSatisfyEff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="basePerformance.resx">
+      <DependentUpon>basePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comPerformance.resx">
+      <DependentUpon>comPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coveragePerformance.resx">
+      <DependentUpon>coveragePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coverPerformance.resx">
+      <DependentUpon>coverPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coverRangeEff.resx">
+      <DependentUpon>coverRangeEff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coverspacePerformance.resx">
+      <DependentUpon>coverspacePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datagetPerformance.resx">
+      <DependentUpon>datagetPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datasolvePerformance.resx">
+      <DependentUpon>datasolvePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datatransportPerformance.resx">
+      <DependentUpon>datatransportPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="equipmentPerform.resx">
+      <DependentUpon>equipmentPerform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="informationPerformance.resx">
+      <DependentUpon>informationPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="observerAbility.resx">
+      <DependentUpon>observerAbility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="performance.resx">
+      <DependentUpon>performance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="radiationPerformance.resx">
+      <DependentUpon>radiationPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spcePerformance.resx">
+      <DependentUpon>spcePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spectrumPerformance.resx">
+      <DependentUpon>spectrumPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="starLandResourceEff.resx">
+      <DependentUpon>starLandResourceEff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="systemContriRate.resx">
+      <DependentUpon>systemContriRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taskResponseEff.resx">
+      <DependentUpon>taskResponseEff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timePerformance.resx">
+      <DependentUpon>timePerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
