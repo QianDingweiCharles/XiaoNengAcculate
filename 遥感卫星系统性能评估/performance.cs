@@ -1088,7 +1088,7 @@ namespace 遥感卫星系统性能评估
             parameterEffComboBox.SelectedIndex = 0;
             panel1.Visible = true;
             panel2.Visible = false;
-            panel1.Location = new Point(56, 2);
+            panel1.Location = new Point(53, 58);
 
             //体系贡献度
             parameterComboBox2.SelectedIndex = 0;
@@ -2670,12 +2670,12 @@ namespace 遥感卫星系统性能评估
             {
                 panel1.Visible = true;
                 panel2.Visible = false;
-                panel1.Location = new Point(56, 2);
+                panel1.Location = new Point(53, 58);
             }
             else
             {
                 panel1.Visible = false;
-                panel2.Location = new Point(56, 2);
+                panel2.Location = new Point(53, 58);
                 panel2.Visible = true;
             }
         }
@@ -2700,6 +2700,11 @@ namespace 遥感卫星系统性能评估
         }
 
         private void normalizedDatagrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void appEffBtn2_Click(object sender, EventArgs e)
         {
 
         }

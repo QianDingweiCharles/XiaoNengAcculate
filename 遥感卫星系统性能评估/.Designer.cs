@@ -28,71 +28,138 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("空间性能");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("时间性能");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("光谱性能");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("辐射性能");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("精度评定");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("基础性能", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5});
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("覆盖时效性能");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("覆盖空间性能");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("覆盖性能", new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8});
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("数据获取");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("数据传输");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("数据处理");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("信息性能", new System.Windows.Forms.TreeNode[] {
-            treeNode10,
-            treeNode11,
-            treeNode12});
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle191 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("空间性能");
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("时间性能");
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("光谱性能");
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("辐射性能");
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("精度评定");
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("基础性能", new System.Windows.Forms.TreeNode[] {
+            treeNode66,
+            treeNode67,
+            treeNode68,
+            treeNode69,
+            treeNode70});
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("覆盖时效性能");
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("覆盖空间性能");
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("覆盖性能", new System.Windows.Forms.TreeNode[] {
+            treeNode72,
+            treeNode73});
+            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("数据获取");
+            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("数据传输");
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("数据处理");
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("信息性能", new System.Windows.Forms.TreeNode[] {
+            treeNode75,
+            treeNode76,
+            treeNode77});
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle192 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle194 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle193 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle195 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle196 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle198 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle199 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle197 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle200 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle201 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle202 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle203 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle204 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(performanceEvaluation));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle205 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle206 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle207 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle208 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle209 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle210 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle211 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle212 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle213 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle214 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle215 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle216 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle217 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle218 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle219 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle220 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle221 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle222 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle223 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle224 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle225 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle226 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle227 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle228 = new System.Windows.Forms.DataGridViewCellStyle();
             this.title = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.xx3 = new System.Windows.Forms.CheckBox();
+            this.xx103 = new System.Windows.Forms.CheckBox();
+            this.xx2 = new System.Windows.Forms.CheckBox();
+            this.xx101 = new System.Windows.Forms.CheckBox();
+            this.xx102 = new System.Windows.Forms.CheckBox();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.start205 = new System.Windows.Forms.CheckBox();
+            this.start204 = new System.Windows.Forms.CheckBox();
+            this.start203 = new System.Windows.Forms.CheckBox();
+            this.start202 = new System.Windows.Forms.CheckBox();
+            this.start206 = new System.Windows.Forms.CheckBox();
+            this.start201 = new System.Windows.Forms.CheckBox();
+            this.start1 = new System.Windows.Forms.CheckBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.FY4 = new System.Windows.Forms.CheckBox();
+            this.FY3D = new System.Windows.Forms.CheckBox();
+            this.FY3C = new System.Windows.Forms.CheckBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.GF7 = new System.Windows.Forms.CheckBox();
+            this.ZY302 = new System.Windows.Forms.CheckBox();
+            this.ZY301 = new System.Windows.Forms.CheckBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.GF3 = new System.Windows.Forms.CheckBox();
+            this.HY2B = new System.Windows.Forms.CheckBox();
+            this.HY2A = new System.Windows.Forms.CheckBox();
+            this.HY1C = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.loadType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.satelliteModel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loadName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.spatialResolution = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.width = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MssAngle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.orbitalCycle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.revisitCycle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.spectralResolution = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.spectralRange = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numberSpectra = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.electromagnetic = new System.Windows.Forms.CheckBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.laser = new System.Windows.Forms.CheckBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.ultraviolet = new System.Windows.Forms.CheckBox();
+            this.shimmer = new System.Windows.Forms.CheckBox();
+            this.hyperspectral = new System.Windows.Forms.CheckBox();
+            this.visibleLight = new System.Windows.Forms.CheckBox();
+            this.infrared = new System.Windows.Forms.CheckBox();
+            this.panchromatic = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.microwaveScatterometer = new System.Windows.Forms.CheckBox();
+            this.microwaveAltimeter = new System.Windows.Forms.CheckBox();
+            this.microwaveRadiometer = new System.Windows.Forms.CheckBox();
+            this.SAR = new System.Windows.Forms.CheckBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label22 = new System.Windows.Forms.Label();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.analysisdataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label21 = new System.Windows.Forms.Label();
             this.normalizedDatagrid2 = new System.Windows.Forms.DataGridView();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -100,6 +167,27 @@
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.commentdataGrid = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AHPFCEresult = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.m3box = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.m2box = new System.Windows.Forms.TextBox();
+            this.m1box = new System.Windows.Forms.TextBox();
+            this.m1 = new System.Windows.Forms.Label();
+            this.m3 = new System.Windows.Forms.Label();
+            this.m2 = new System.Windows.Forms.Label();
+            this.AHPFCEBtn = new System.Windows.Forms.Button();
+            this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.AHPresult = new System.Windows.Forms.Label();
+            this.lastresult = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.AHPpanel2 = new System.Windows.Forms.Panel();
             this.coverSpaceTxtBox = new System.Windows.Forms.TextBox();
             this.coverTimeTxtBox = new System.Windows.Forms.TextBox();
@@ -430,99 +518,32 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.electromagnetic = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.laser = new System.Windows.Forms.CheckBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.ultraviolet = new System.Windows.Forms.CheckBox();
-            this.shimmer = new System.Windows.Forms.CheckBox();
-            this.hyperspectral = new System.Windows.Forms.CheckBox();
-            this.visibleLight = new System.Windows.Forms.CheckBox();
-            this.infrared = new System.Windows.Forms.CheckBox();
-            this.panchromatic = new System.Windows.Forms.CheckBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.microwaveScatterometer = new System.Windows.Forms.CheckBox();
-            this.microwaveAltimeter = new System.Windows.Forms.CheckBox();
-            this.microwaveRadiometer = new System.Windows.Forms.CheckBox();
-            this.SAR = new System.Windows.Forms.CheckBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.loadType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.satelliteModel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.loadName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.spatialResolution = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.width = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MssAngle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.orbitalCycle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.revisitCycle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.spectralResolution = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.spectralRange = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.numberSpectra = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.xx3 = new System.Windows.Forms.CheckBox();
-            this.xx103 = new System.Windows.Forms.CheckBox();
-            this.xx2 = new System.Windows.Forms.CheckBox();
-            this.xx101 = new System.Windows.Forms.CheckBox();
-            this.xx102 = new System.Windows.Forms.CheckBox();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.start205 = new System.Windows.Forms.CheckBox();
-            this.start204 = new System.Windows.Forms.CheckBox();
-            this.start203 = new System.Windows.Forms.CheckBox();
-            this.start202 = new System.Windows.Forms.CheckBox();
-            this.start206 = new System.Windows.Forms.CheckBox();
-            this.start201 = new System.Windows.Forms.CheckBox();
-            this.start1 = new System.Windows.Forms.CheckBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.FY4 = new System.Windows.Forms.CheckBox();
-            this.FY3D = new System.Windows.Forms.CheckBox();
-            this.FY3C = new System.Windows.Forms.CheckBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.GF7 = new System.Windows.Forms.CheckBox();
-            this.ZY302 = new System.Windows.Forms.CheckBox();
-            this.ZY301 = new System.Windows.Forms.CheckBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.GF3 = new System.Windows.Forms.CheckBox();
-            this.HY2B = new System.Windows.Forms.CheckBox();
-            this.HY2A = new System.Windows.Forms.CheckBox();
-            this.HY1C = new System.Windows.Forms.CheckBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.analysisdataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label22 = new System.Windows.Forms.Label();
-            this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.m3box = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.m2box = new System.Windows.Forms.TextBox();
-            this.m1box = new System.Windows.Forms.TextBox();
-            this.m1 = new System.Windows.Forms.Label();
-            this.m3 = new System.Windows.Forms.Label();
-            this.m2 = new System.Windows.Forms.Label();
-            this.AHPFCEBtn = new System.Windows.Forms.Button();
-            this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.lastresult = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.AHPresult = new System.Windows.Forms.Label();
-            this.commentdataGrid = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AHPFCEresult = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
+            this.tabPage9.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.analysisdataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.normalizedDatagrid2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.normalizedDatagrid1)).BeginInit();
             this.tabPage4.SuspendLayout();
+            this.groupBox16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.commentdataGrid)).BeginInit();
+            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox15.SuspendLayout();
             this.AHPpanel2.SuspendLayout();
             this.AHPpanel1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -545,27 +566,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.AHPdataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AHPdataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AHPdataGridView3)).BeginInit();
-            this.tabPage9.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.groupBox9.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.analysisdataGridView)).BeginInit();
-            this.groupBox16.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.commentdataGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // title
@@ -593,6 +593,581 @@
             this.tabControl1.Size = new System.Drawing.Size(1068, 910);
             this.tabControl1.TabIndex = 5;
             // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.groupBox9);
+            this.tabPage9.Controls.Add(this.groupBox10);
+            this.tabPage9.Controls.Add(this.groupBox7);
+            this.tabPage9.Controls.Add(this.groupBox6);
+            this.tabPage9.Controls.Add(this.groupBox5);
+            this.tabPage9.Controls.Add(this.label2);
+            this.tabPage9.Controls.Add(this.dataGridView1);
+            this.tabPage9.Controls.Add(this.groupBox4);
+            this.tabPage9.Controls.Add(this.groupBox3);
+            this.tabPage9.Controls.Add(this.groupBox2);
+            this.tabPage9.Controls.Add(this.groupBox1);
+            this.tabPage9.Location = new System.Drawing.Point(4, 23);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Size = new System.Drawing.Size(1060, 883);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "体系方案";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            this.tabPage9.Click += new System.EventHandler(this.tabPage9_Click);
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.xx3);
+            this.groupBox9.Controls.Add(this.xx103);
+            this.groupBox9.Controls.Add(this.xx2);
+            this.groupBox9.Controls.Add(this.xx101);
+            this.groupBox9.Controls.Add(this.xx102);
+            this.groupBox9.Location = new System.Drawing.Point(568, 182);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(201, 155);
+            this.groupBox9.TabIndex = 20;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "xx系列";
+            // 
+            // xx3
+            // 
+            this.xx3.AutoSize = true;
+            this.xx3.Location = new System.Drawing.Point(125, 72);
+            this.xx3.Name = "xx3";
+            this.xx3.Size = new System.Drawing.Size(62, 18);
+            this.xx3.TabIndex = 4;
+            this.xx3.Text = "xx三号";
+            this.xx3.UseVisualStyleBackColor = true;
+            // 
+            // xx103
+            // 
+            this.xx103.AutoSize = true;
+            this.xx103.Location = new System.Drawing.Point(22, 116);
+            this.xx103.Name = "xx103";
+            this.xx103.Size = new System.Drawing.Size(76, 18);
+            this.xx103.TabIndex = 2;
+            this.xx103.Text = "xx一号03";
+            this.xx103.UseVisualStyleBackColor = true;
+            // 
+            // xx2
+            // 
+            this.xx2.AutoSize = true;
+            this.xx2.Location = new System.Drawing.Point(125, 28);
+            this.xx2.Name = "xx2";
+            this.xx2.Size = new System.Drawing.Size(62, 18);
+            this.xx2.TabIndex = 3;
+            this.xx2.Text = "xx二号";
+            this.xx2.UseVisualStyleBackColor = true;
+            // 
+            // xx101
+            // 
+            this.xx101.AutoSize = true;
+            this.xx101.Location = new System.Drawing.Point(22, 28);
+            this.xx101.Name = "xx101";
+            this.xx101.Size = new System.Drawing.Size(76, 18);
+            this.xx101.TabIndex = 0;
+            this.xx101.Text = "xx一号01";
+            this.xx101.UseVisualStyleBackColor = true;
+            // 
+            // xx102
+            // 
+            this.xx102.AutoSize = true;
+            this.xx102.Location = new System.Drawing.Point(22, 72);
+            this.xx102.Name = "xx102";
+            this.xx102.Size = new System.Drawing.Size(76, 18);
+            this.xx102.TabIndex = 1;
+            this.xx102.Text = "xx一号02";
+            this.xx102.UseVisualStyleBackColor = true;
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.start205);
+            this.groupBox10.Controls.Add(this.start204);
+            this.groupBox10.Controls.Add(this.start203);
+            this.groupBox10.Controls.Add(this.start202);
+            this.groupBox10.Controls.Add(this.start206);
+            this.groupBox10.Controls.Add(this.start201);
+            this.groupBox10.Controls.Add(this.start1);
+            this.groupBox10.Location = new System.Drawing.Point(815, 182);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(201, 155);
+            this.groupBox10.TabIndex = 19;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "**系列";
+            // 
+            // start205
+            // 
+            this.start205.AutoSize = true;
+            this.start205.Location = new System.Drawing.Point(110, 58);
+            this.start205.Name = "start205";
+            this.start205.Size = new System.Drawing.Size(78, 18);
+            this.start205.TabIndex = 6;
+            this.start205.Text = "**二号05";
+            this.start205.UseVisualStyleBackColor = true;
+            // 
+            // start204
+            // 
+            this.start204.AutoSize = true;
+            this.start204.Location = new System.Drawing.Point(110, 28);
+            this.start204.Name = "start204";
+            this.start204.Size = new System.Drawing.Size(78, 18);
+            this.start204.TabIndex = 5;
+            this.start204.Text = "**二号04";
+            this.start204.UseVisualStyleBackColor = true;
+            // 
+            // start203
+            // 
+            this.start203.AutoSize = true;
+            this.start203.Location = new System.Drawing.Point(21, 118);
+            this.start203.Name = "start203";
+            this.start203.Size = new System.Drawing.Size(78, 18);
+            this.start203.TabIndex = 4;
+            this.start203.Text = "**二号03";
+            this.start203.UseVisualStyleBackColor = true;
+            // 
+            // start202
+            // 
+            this.start202.AutoSize = true;
+            this.start202.Location = new System.Drawing.Point(21, 88);
+            this.start202.Name = "start202";
+            this.start202.Size = new System.Drawing.Size(78, 18);
+            this.start202.TabIndex = 3;
+            this.start202.Text = "**二号02";
+            this.start202.UseVisualStyleBackColor = true;
+            // 
+            // start206
+            // 
+            this.start206.AutoSize = true;
+            this.start206.Location = new System.Drawing.Point(110, 88);
+            this.start206.Name = "start206";
+            this.start206.Size = new System.Drawing.Size(78, 18);
+            this.start206.TabIndex = 2;
+            this.start206.Text = "**二号06";
+            this.start206.UseVisualStyleBackColor = true;
+            // 
+            // start201
+            // 
+            this.start201.AutoSize = true;
+            this.start201.Location = new System.Drawing.Point(21, 58);
+            this.start201.Name = "start201";
+            this.start201.Size = new System.Drawing.Size(78, 18);
+            this.start201.TabIndex = 1;
+            this.start201.Text = "**二号01";
+            this.start201.UseVisualStyleBackColor = true;
+            // 
+            // start1
+            // 
+            this.start1.AutoSize = true;
+            this.start1.Location = new System.Drawing.Point(21, 28);
+            this.start1.Name = "start1";
+            this.start1.Size = new System.Drawing.Size(64, 18);
+            this.start1.TabIndex = 0;
+            this.start1.Text = "**一号";
+            this.start1.UseVisualStyleBackColor = true;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.FY4);
+            this.groupBox7.Controls.Add(this.FY3D);
+            this.groupBox7.Controls.Add(this.FY3C);
+            this.groupBox7.Location = new System.Drawing.Point(396, 182);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(134, 155);
+            this.groupBox7.TabIndex = 18;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "风云系列";
+            // 
+            // FY4
+            // 
+            this.FY4.AutoSize = true;
+            this.FY4.Location = new System.Drawing.Point(33, 118);
+            this.FY4.Name = "FY4";
+            this.FY4.Size = new System.Drawing.Size(51, 18);
+            this.FY4.TabIndex = 2;
+            this.FY4.Text = "FY-4";
+            this.FY4.UseVisualStyleBackColor = true;
+            // 
+            // FY3D
+            // 
+            this.FY3D.AutoSize = true;
+            this.FY3D.Location = new System.Drawing.Point(33, 73);
+            this.FY3D.Name = "FY3D";
+            this.FY3D.Size = new System.Drawing.Size(59, 18);
+            this.FY3D.TabIndex = 1;
+            this.FY3D.Text = "FY-3D";
+            this.FY3D.UseVisualStyleBackColor = true;
+            // 
+            // FY3C
+            // 
+            this.FY3C.AutoSize = true;
+            this.FY3C.Location = new System.Drawing.Point(33, 28);
+            this.FY3C.Name = "FY3C";
+            this.FY3C.Size = new System.Drawing.Size(58, 18);
+            this.FY3C.TabIndex = 0;
+            this.FY3C.Text = "FY-3C";
+            this.FY3C.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.GF7);
+            this.groupBox6.Controls.Add(this.ZY302);
+            this.groupBox6.Controls.Add(this.ZY301);
+            this.groupBox6.Location = new System.Drawing.Point(224, 182);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(134, 155);
+            this.groupBox6.TabIndex = 17;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "资源系列";
+            // 
+            // GF7
+            // 
+            this.GF7.AutoSize = true;
+            this.GF7.Location = new System.Drawing.Point(33, 118);
+            this.GF7.Name = "GF7";
+            this.GF7.Size = new System.Drawing.Size(51, 18);
+            this.GF7.TabIndex = 2;
+            this.GF7.Text = "GF-7";
+            this.GF7.UseVisualStyleBackColor = true;
+            // 
+            // ZY302
+            // 
+            this.ZY302.AutoSize = true;
+            this.ZY302.Location = new System.Drawing.Point(33, 73);
+            this.ZY302.Name = "ZY302";
+            this.ZY302.Size = new System.Drawing.Size(70, 18);
+            this.ZY302.TabIndex = 1;
+            this.ZY302.Text = "ZY-3 02";
+            this.ZY302.UseVisualStyleBackColor = true;
+            // 
+            // ZY301
+            // 
+            this.ZY301.AutoSize = true;
+            this.ZY301.Location = new System.Drawing.Point(33, 28);
+            this.ZY301.Name = "ZY301";
+            this.ZY301.Size = new System.Drawing.Size(70, 18);
+            this.ZY301.TabIndex = 0;
+            this.ZY301.Text = "ZY-3 01";
+            this.ZY301.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.GF3);
+            this.groupBox5.Controls.Add(this.HY2B);
+            this.groupBox5.Controls.Add(this.HY2A);
+            this.groupBox5.Controls.Add(this.HY1C);
+            this.groupBox5.Location = new System.Drawing.Point(40, 182);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(134, 155);
+            this.groupBox5.TabIndex = 16;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "海洋系列";
+            // 
+            // GF3
+            // 
+            this.GF3.AutoSize = true;
+            this.GF3.Location = new System.Drawing.Point(22, 118);
+            this.GF3.Name = "GF3";
+            this.GF3.Size = new System.Drawing.Size(51, 18);
+            this.GF3.TabIndex = 3;
+            this.GF3.Text = "GF-3";
+            this.GF3.UseVisualStyleBackColor = true;
+            // 
+            // HY2B
+            // 
+            this.HY2B.AutoSize = true;
+            this.HY2B.Location = new System.Drawing.Point(22, 88);
+            this.HY2B.Name = "HY2B";
+            this.HY2B.Size = new System.Drawing.Size(60, 18);
+            this.HY2B.TabIndex = 2;
+            this.HY2B.Text = "HY-2B";
+            this.HY2B.UseVisualStyleBackColor = true;
+            // 
+            // HY2A
+            // 
+            this.HY2A.AutoSize = true;
+            this.HY2A.Location = new System.Drawing.Point(22, 58);
+            this.HY2A.Name = "HY2A";
+            this.HY2A.Size = new System.Drawing.Size(61, 18);
+            this.HY2A.TabIndex = 1;
+            this.HY2A.Text = "HY-2A";
+            this.HY2A.UseVisualStyleBackColor = true;
+            // 
+            // HY1C
+            // 
+            this.HY1C.AutoSize = true;
+            this.HY1C.Location = new System.Drawing.Point(22, 28);
+            this.HY1C.Name = "HY1C";
+            this.HY1C.Size = new System.Drawing.Size(60, 18);
+            this.HY1C.TabIndex = 0;
+            this.HY1C.Text = "HY-1C";
+            this.HY1C.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(2, 352);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1055, 37);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "待评估体系方案";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle191.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle191.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle191.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle191.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle191.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle191.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle191.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle191;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.loadType,
+            this.satelliteModel,
+            this.loadName,
+            this.spatialResolution,
+            this.width,
+            this.MssAngle,
+            this.orbitalCycle,
+            this.revisitCycle,
+            this.spectralResolution,
+            this.spectralRange,
+            this.numberSpectra});
+            this.dataGridView1.Location = new System.Drawing.Point(2, 399);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(1058, 466);
+            this.dataGridView1.TabIndex = 14;
+            // 
+            // loadType
+            // 
+            this.loadType.HeaderText = "载荷类型";
+            this.loadType.Name = "loadType";
+            // 
+            // satelliteModel
+            // 
+            this.satelliteModel.HeaderText = "卫星型号";
+            this.satelliteModel.Name = "satelliteModel";
+            // 
+            // loadName
+            // 
+            this.loadName.HeaderText = "载荷名称";
+            this.loadName.Name = "loadName";
+            // 
+            // spatialResolution
+            // 
+            this.spatialResolution.HeaderText = "空间分辨率（m）";
+            this.spatialResolution.Name = "spatialResolution";
+            // 
+            // width
+            // 
+            this.width.HeaderText = "幅宽（km）";
+            this.width.Name = "width";
+            // 
+            // MssAngle
+            // 
+            this.MssAngle.HeaderText = "最大侧摆角";
+            this.MssAngle.Name = "MssAngle";
+            // 
+            // orbitalCycle
+            // 
+            this.orbitalCycle.HeaderText = "轨道周期";
+            this.orbitalCycle.Name = "orbitalCycle";
+            // 
+            // revisitCycle
+            // 
+            this.revisitCycle.HeaderText = "重访周期";
+            this.revisitCycle.Name = "revisitCycle";
+            // 
+            // spectralResolution
+            // 
+            this.spectralResolution.HeaderText = "光谱分辨率";
+            this.spectralResolution.Name = "spectralResolution";
+            // 
+            // spectralRange
+            // 
+            this.spectralRange.HeaderText = "光谱范围";
+            this.spectralRange.Name = "spectralRange";
+            // 
+            // numberSpectra
+            // 
+            this.numberSpectra.HeaderText = "光谱个数";
+            this.numberSpectra.Name = "numberSpectra";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.electromagnetic);
+            this.groupBox4.Location = new System.Drawing.Point(810, 79);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(206, 41);
+            this.groupBox4.TabIndex = 13;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "电磁";
+            // 
+            // electromagnetic
+            // 
+            this.electromagnetic.AutoSize = true;
+            this.electromagnetic.Location = new System.Drawing.Point(53, 14);
+            this.electromagnetic.Name = "electromagnetic";
+            this.electromagnetic.Size = new System.Drawing.Size(98, 18);
+            this.electromagnetic.TabIndex = 3;
+            this.electromagnetic.Text = "电磁探测类型";
+            this.electromagnetic.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.laser);
+            this.groupBox3.Location = new System.Drawing.Point(810, 18);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(206, 43);
+            this.groupBox3.TabIndex = 12;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "激光";
+            // 
+            // laser
+            // 
+            this.laser.AutoSize = true;
+            this.laser.Location = new System.Drawing.Point(57, 17);
+            this.laser.Name = "laser";
+            this.laser.Size = new System.Drawing.Size(98, 18);
+            this.laser.TabIndex = 2;
+            this.laser.Text = "激光测高类型";
+            this.laser.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.ultraviolet);
+            this.groupBox2.Controls.Add(this.shimmer);
+            this.groupBox2.Controls.Add(this.hyperspectral);
+            this.groupBox2.Controls.Add(this.visibleLight);
+            this.groupBox2.Controls.Add(this.infrared);
+            this.groupBox2.Controls.Add(this.panchromatic);
+            this.groupBox2.Location = new System.Drawing.Point(373, 18);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(377, 102);
+            this.groupBox2.TabIndex = 11;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "光学";
+            // 
+            // ultraviolet
+            // 
+            this.ultraviolet.AutoSize = true;
+            this.ultraviolet.Location = new System.Drawing.Point(301, 58);
+            this.ultraviolet.Name = "ultraviolet";
+            this.ultraviolet.Size = new System.Drawing.Size(74, 18);
+            this.ultraviolet.TabIndex = 6;
+            this.ultraviolet.Text = "紫外类型";
+            this.ultraviolet.UseVisualStyleBackColor = true;
+            // 
+            // shimmer
+            // 
+            this.shimmer.AutoSize = true;
+            this.shimmer.Location = new System.Drawing.Point(301, 23);
+            this.shimmer.Name = "shimmer";
+            this.shimmer.Size = new System.Drawing.Size(74, 18);
+            this.shimmer.TabIndex = 5;
+            this.shimmer.Text = "微光类型";
+            this.shimmer.UseVisualStyleBackColor = true;
+            // 
+            // hyperspectral
+            // 
+            this.hyperspectral.AutoSize = true;
+            this.hyperspectral.Location = new System.Drawing.Point(42, 58);
+            this.hyperspectral.Name = "hyperspectral";
+            this.hyperspectral.Size = new System.Drawing.Size(103, 18);
+            this.hyperspectral.TabIndex = 4;
+            this.hyperspectral.Text = "高/超光谱类型";
+            this.hyperspectral.UseVisualStyleBackColor = true;
+            // 
+            // visibleLight
+            // 
+            this.visibleLight.AutoSize = true;
+            this.visibleLight.Location = new System.Drawing.Point(145, 23);
+            this.visibleLight.Name = "visibleLight";
+            this.visibleLight.Size = new System.Drawing.Size(127, 18);
+            this.visibleLight.TabIndex = 3;
+            this.visibleLight.Text = "可见光/近红外类型";
+            this.visibleLight.UseVisualStyleBackColor = true;
+            // 
+            // infrared
+            // 
+            this.infrared.AutoSize = true;
+            this.infrared.Location = new System.Drawing.Point(145, 58);
+            this.infrared.Name = "infrared";
+            this.infrared.Size = new System.Drawing.Size(74, 18);
+            this.infrared.TabIndex = 2;
+            this.infrared.Text = "红外类型";
+            this.infrared.UseVisualStyleBackColor = true;
+            // 
+            // panchromatic
+            // 
+            this.panchromatic.AutoSize = true;
+            this.panchromatic.Location = new System.Drawing.Point(42, 23);
+            this.panchromatic.Name = "panchromatic";
+            this.panchromatic.Size = new System.Drawing.Size(74, 18);
+            this.panchromatic.TabIndex = 1;
+            this.panchromatic.Text = "全色类型";
+            this.panchromatic.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.microwaveScatterometer);
+            this.groupBox1.Controls.Add(this.microwaveAltimeter);
+            this.groupBox1.Controls.Add(this.microwaveRadiometer);
+            this.groupBox1.Controls.Add(this.SAR);
+            this.groupBox1.Location = new System.Drawing.Point(40, 18);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(273, 102);
+            this.groupBox1.TabIndex = 10;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "微波";
+            // 
+            // microwaveScatterometer
+            // 
+            this.microwaveScatterometer.AutoSize = true;
+            this.microwaveScatterometer.Location = new System.Drawing.Point(155, 58);
+            this.microwaveScatterometer.Name = "microwaveScatterometer";
+            this.microwaveScatterometer.Size = new System.Drawing.Size(110, 18);
+            this.microwaveScatterometer.TabIndex = 3;
+            this.microwaveScatterometer.Text = "微波散射计类型";
+            this.microwaveScatterometer.UseVisualStyleBackColor = true;
+            // 
+            // microwaveAltimeter
+            // 
+            this.microwaveAltimeter.AutoSize = true;
+            this.microwaveAltimeter.Location = new System.Drawing.Point(155, 23);
+            this.microwaveAltimeter.Name = "microwaveAltimeter";
+            this.microwaveAltimeter.Size = new System.Drawing.Size(110, 18);
+            this.microwaveAltimeter.TabIndex = 2;
+            this.microwaveAltimeter.Text = "微波高度计类型";
+            this.microwaveAltimeter.UseVisualStyleBackColor = true;
+            // 
+            // microwaveRadiometer
+            // 
+            this.microwaveRadiometer.AutoSize = true;
+            this.microwaveRadiometer.Location = new System.Drawing.Point(40, 58);
+            this.microwaveRadiometer.Name = "microwaveRadiometer";
+            this.microwaveRadiometer.Size = new System.Drawing.Size(110, 18);
+            this.microwaveRadiometer.TabIndex = 1;
+            this.microwaveRadiometer.Text = "微波辐射计类型";
+            this.microwaveRadiometer.UseVisualStyleBackColor = true;
+            // 
+            // SAR
+            // 
+            this.SAR.AutoSize = true;
+            this.SAR.Location = new System.Drawing.Point(40, 23);
+            this.SAR.Name = "SAR";
+            this.SAR.Size = new System.Drawing.Size(96, 18);
+            this.SAR.TabIndex = 0;
+            this.SAR.Text = "成像SAR类型";
+            this.SAR.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SAR.UseVisualStyleBackColor = true;
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.label22);
@@ -608,32 +1183,149 @@
             this.tabPage3.Text = "指标处理";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label22.Location = new System.Drawing.Point(-4, 405);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(1068, 31);
+            this.label22.TabIndex = 8;
+            this.label22.Text = "归一化指标";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Location = new System.Drawing.Point(-1, 54);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.treeView1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.analysisdataGridView);
+            this.splitContainer1.Size = new System.Drawing.Size(1061, 335);
+            this.splitContainer1.SplitterDistance = 145;
+            this.splitContainer1.TabIndex = 7;
+            // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(3, 3);
+            this.treeView1.Name = "treeView1";
+            treeNode66.Name = "节点1";
+            treeNode66.Text = "空间性能";
+            treeNode67.Name = "节点2";
+            treeNode67.Text = "时间性能";
+            treeNode68.Name = "节点3";
+            treeNode68.Text = "光谱性能";
+            treeNode69.Name = "节点4";
+            treeNode69.Text = "辐射性能";
+            treeNode70.Name = "节点5";
+            treeNode70.Text = "精度评定";
+            treeNode71.Name = "节点0";
+            treeNode71.Text = "基础性能";
+            treeNode72.Name = "节点7";
+            treeNode72.Text = "覆盖时效性能";
+            treeNode73.Name = "节点8";
+            treeNode73.Text = "覆盖空间性能";
+            treeNode74.Name = "节点6";
+            treeNode74.Text = "覆盖性能";
+            treeNode75.Name = "节点12";
+            treeNode75.Text = "数据获取";
+            treeNode76.Name = "节点13";
+            treeNode76.Text = "数据传输";
+            treeNode77.Name = "节点14";
+            treeNode77.Text = "数据处理";
+            treeNode78.Name = "节点11";
+            treeNode78.Text = "信息性能";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode71,
+            treeNode74,
+            treeNode78});
+            this.treeView1.Size = new System.Drawing.Size(139, 329);
+            this.treeView1.TabIndex = 8;
+            // 
+            // analysisdataGridView
+            // 
+            this.analysisdataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.analysisdataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.analysisdataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.analysisdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.analysisdataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn33,
+            this.dataGridViewTextBoxColumn34,
+            this.dataGridViewTextBoxColumn35,
+            this.dataGridViewTextBoxColumn36,
+            this.dataGridViewTextBoxColumn37});
+            this.analysisdataGridView.Location = new System.Drawing.Point(3, 3);
+            this.analysisdataGridView.Name = "analysisdataGridView";
+            this.analysisdataGridView.RowHeadersVisible = false;
+            this.analysisdataGridView.RowTemplate.Height = 23;
+            this.analysisdataGridView.Size = new System.Drawing.Size(906, 329);
+            this.analysisdataGridView.TabIndex = 33;
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.HeaderText = "评估性能指标";
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            // 
+            // dataGridViewTextBoxColumn34
+            // 
+            this.dataGridViewTextBoxColumn34.HeaderText = "分布";
+            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
+            // 
+            // dataGridViewTextBoxColumn35
+            // 
+            this.dataGridViewTextBoxColumn35.HeaderText = "最高值";
+            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
+            // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.HeaderText = "最低值";
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            // 
+            // dataGridViewTextBoxColumn37
+            // 
+            this.dataGridViewTextBoxColumn37.HeaderText = "平均值";
+            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label21.Location = new System.Drawing.Point(-4, 1);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(1068, 31);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "统计分析";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // normalizedDatagrid2
             // 
             this.normalizedDatagrid2.AllowUserToAddRows = false;
             this.normalizedDatagrid2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.normalizedDatagrid2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.normalizedDatagrid2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.normalizedDatagrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle192.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle192.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle192.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle192.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle192.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle192.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle192.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.normalizedDatagrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle192;
             this.normalizedDatagrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.normalizedDatagrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column6,
             this.dataGridViewTextBoxColumn48});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.normalizedDatagrid2.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle194.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle194.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle194.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle194.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle194.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle194.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle194.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.normalizedDatagrid2.DefaultCellStyle = dataGridViewCellStyle194;
             this.normalizedDatagrid2.Location = new System.Drawing.Point(629, 496);
             this.normalizedDatagrid2.Name = "normalizedDatagrid2";
             this.normalizedDatagrid2.RowHeadersVisible = false;
@@ -649,45 +1341,45 @@
             // 
             // dataGridViewTextBoxColumn48
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn48.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle193.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn48.DefaultCellStyle = dataGridViewCellStyle193;
             this.dataGridViewTextBoxColumn48.HeaderText = "规范化属性值";
             this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
             // 
             // normalizedDatagrid1
             // 
             this.normalizedDatagrid1.AllowUserToAddRows = false;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.normalizedDatagrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle195.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.normalizedDatagrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle195;
             this.normalizedDatagrid1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.normalizedDatagrid1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.normalizedDatagrid1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.normalizedDatagrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle196.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle196.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle196.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle196.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle196.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle196.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle196.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.normalizedDatagrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle196;
             this.normalizedDatagrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.normalizedDatagrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column9,
             this.Column8});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.normalizedDatagrid1.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle198.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle198.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle198.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle198.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle198.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle198.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle198.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.normalizedDatagrid1.DefaultCellStyle = dataGridViewCellStyle198;
             this.normalizedDatagrid1.Location = new System.Drawing.Point(170, 496);
             this.normalizedDatagrid1.Name = "normalizedDatagrid1";
             this.normalizedDatagrid1.RowHeadersVisible = false;
             this.normalizedDatagrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.normalizedDatagrid1.RowsDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle199.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.normalizedDatagrid1.RowsDefaultCellStyle = dataGridViewCellStyle199;
             this.normalizedDatagrid1.RowTemplate.Height = 23;
             this.normalizedDatagrid1.Size = new System.Drawing.Size(245, 305);
             this.normalizedDatagrid1.TabIndex = 0;
@@ -700,8 +1392,8 @@
             // 
             // Column8
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column8.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle197.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column8.DefaultCellStyle = dataGridViewCellStyle197;
             this.Column8.HeaderText = "规范化属性值";
             this.Column8.Name = "Column8";
             // 
@@ -720,6 +1412,233 @@
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "效能分析";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // groupBox16
+            // 
+            this.groupBox16.Controls.Add(this.commentdataGrid);
+            this.groupBox16.Controls.Add(this.AHPFCEresult);
+            this.groupBox16.Controls.Add(this.groupBox8);
+            this.groupBox16.Controls.Add(this.AHPFCEBtn);
+            this.groupBox16.Location = new System.Drawing.Point(305, 516);
+            this.groupBox16.Name = "groupBox16";
+            this.groupBox16.Size = new System.Drawing.Size(732, 352);
+            this.groupBox16.TabIndex = 31;
+            this.groupBox16.TabStop = false;
+            this.groupBox16.Text = "AHP-FCE评估";
+            // 
+            // commentdataGrid
+            // 
+            dataGridViewCellStyle200.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.commentdataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle200;
+            this.commentdataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.commentdataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.commentdataGrid.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
+            dataGridViewCellStyle201.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle201.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle201.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle201.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle201.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle201.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle201.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.commentdataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle201;
+            this.commentdataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.commentdataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn49,
+            this.dataGridViewTextBoxColumn50,
+            this.dataGridViewTextBoxColumn51,
+            this.dataGridViewTextBoxColumn52,
+            this.dataGridViewTextBoxColumn53});
+            dataGridViewCellStyle202.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle202.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle202.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle202.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle202.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle202.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle202.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.commentdataGrid.DefaultCellStyle = dataGridViewCellStyle202;
+            this.commentdataGrid.Location = new System.Drawing.Point(413, 125);
+            this.commentdataGrid.Name = "commentdataGrid";
+            dataGridViewCellStyle203.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle203.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle203.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle203.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle203.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle203.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle203.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.commentdataGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle203;
+            this.commentdataGrid.RowHeadersVisible = false;
+            dataGridViewCellStyle204.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.commentdataGrid.RowsDefaultCellStyle = dataGridViewCellStyle204;
+            this.commentdataGrid.RowTemplate.Height = 23;
+            this.commentdataGrid.Size = new System.Drawing.Size(303, 42);
+            this.commentdataGrid.TabIndex = 36;
+            // 
+            // dataGridViewTextBoxColumn49
+            // 
+            this.dataGridViewTextBoxColumn49.HeaderText = "差";
+            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+            // 
+            // dataGridViewTextBoxColumn50
+            // 
+            this.dataGridViewTextBoxColumn50.HeaderText = "较差";
+            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+            // 
+            // dataGridViewTextBoxColumn51
+            // 
+            this.dataGridViewTextBoxColumn51.HeaderText = "一般";
+            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
+            // 
+            // dataGridViewTextBoxColumn52
+            // 
+            this.dataGridViewTextBoxColumn52.HeaderText = "良";
+            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
+            // 
+            // dataGridViewTextBoxColumn53
+            // 
+            this.dataGridViewTextBoxColumn53.HeaderText = "优";
+            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
+            // 
+            // AHPFCEresult
+            // 
+            this.AHPFCEresult.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.AHPFCEresult.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.AHPFCEresult.Location = new System.Drawing.Point(514, 219);
+            this.AHPFCEresult.Name = "AHPFCEresult";
+            this.AHPFCEresult.Size = new System.Drawing.Size(100, 40);
+            this.AHPFCEresult.TabIndex = 35;
+            this.AHPFCEresult.Text = "评估结果";
+            this.AHPFCEresult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.m3box);
+            this.groupBox8.Controls.Add(this.pictureBox1);
+            this.groupBox8.Controls.Add(this.m2box);
+            this.groupBox8.Controls.Add(this.m1box);
+            this.groupBox8.Controls.Add(this.m1);
+            this.groupBox8.Controls.Add(this.m3);
+            this.groupBox8.Controls.Add(this.m2);
+            this.groupBox8.Location = new System.Drawing.Point(10, 22);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(395, 276);
+            this.groupBox8.TabIndex = 16;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "隶属度参数设置";
+            // 
+            // m3box
+            // 
+            this.m3box.Location = new System.Drawing.Point(338, 175);
+            this.m3box.Name = "m3box";
+            this.m3box.Size = new System.Drawing.Size(50, 22);
+            this.m3box.TabIndex = 22;
+            this.m3box.Text = "0.75";
+            this.m3box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(17, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(272, 244);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // m2box
+            // 
+            this.m2box.Location = new System.Drawing.Point(338, 125);
+            this.m2box.Name = "m2box";
+            this.m2box.Size = new System.Drawing.Size(50, 22);
+            this.m2box.TabIndex = 21;
+            this.m2box.Text = "0.5";
+            this.m2box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // m1box
+            // 
+            this.m1box.Location = new System.Drawing.Point(338, 75);
+            this.m1box.Name = "m1box";
+            this.m1box.Size = new System.Drawing.Size(50, 22);
+            this.m1box.TabIndex = 20;
+            this.m1box.Text = "0.25";
+            this.m1box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // m1
+            // 
+            this.m1.Location = new System.Drawing.Point(295, 77);
+            this.m1.Name = "m1";
+            this.m1.Size = new System.Drawing.Size(41, 18);
+            this.m1.TabIndex = 17;
+            this.m1.Text = "m1:";
+            this.m1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // m3
+            // 
+            this.m3.Location = new System.Drawing.Point(295, 177);
+            this.m3.Name = "m3";
+            this.m3.Size = new System.Drawing.Size(41, 18);
+            this.m3.TabIndex = 19;
+            this.m3.Text = "m3:";
+            this.m3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // m2
+            // 
+            this.m2.Location = new System.Drawing.Point(295, 127);
+            this.m2.Name = "m2";
+            this.m2.Size = new System.Drawing.Size(41, 18);
+            this.m2.TabIndex = 18;
+            this.m2.Text = "m2:";
+            this.m2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AHPFCEBtn
+            // 
+            this.AHPFCEBtn.Location = new System.Drawing.Point(487, 41);
+            this.AHPFCEBtn.Name = "AHPFCEBtn";
+            this.AHPFCEBtn.Size = new System.Drawing.Size(100, 40);
+            this.AHPFCEBtn.TabIndex = 17;
+            this.AHPFCEBtn.Text = "AHP-FCE计算";
+            this.AHPFCEBtn.UseVisualStyleBackColor = true;
+            this.AHPFCEBtn.Click += new System.EventHandler(this.AHPFCEBtn_Click);
+            // 
+            // groupBox15
+            // 
+            this.groupBox15.Controls.Add(this.AHPresult);
+            this.groupBox15.Controls.Add(this.lastresult);
+            this.groupBox15.Controls.Add(this.button3);
+            this.groupBox15.Location = new System.Drawing.Point(19, 643);
+            this.groupBox15.Name = "groupBox15";
+            this.groupBox15.Size = new System.Drawing.Size(256, 80);
+            this.groupBox15.TabIndex = 30;
+            this.groupBox15.TabStop = false;
+            this.groupBox15.Text = "AHP评估";
+            // 
+            // AHPresult
+            // 
+            this.AHPresult.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.AHPresult.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.AHPresult.Location = new System.Drawing.Point(138, 23);
+            this.AHPresult.Name = "AHPresult";
+            this.AHPresult.Size = new System.Drawing.Size(100, 40);
+            this.AHPresult.TabIndex = 32;
+            this.AHPresult.Text = "评估结果";
+            this.AHPresult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lastresult
+            // 
+            this.lastresult.Location = new System.Drawing.Point(412, 344);
+            this.lastresult.Name = "lastresult";
+            this.lastresult.Size = new System.Drawing.Size(100, 40);
+            this.lastresult.TabIndex = 19;
+            this.lastresult.Text = "我是结果";
+            this.lastresult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(20, 23);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 40);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "AHP计算";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // AHPpanel2
             // 
@@ -1807,8 +2726,8 @@
             // 
             // dataGridView7
             // 
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView7.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle205.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView7.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle205;
             this.dataGridView7.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView7.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView7.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1818,14 +2737,14 @@
             this.dataGridViewTextBoxColumn41,
             this.dataGridViewTextBoxColumn42,
             this.dataGridViewTextBoxColumn43});
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView7.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle206.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle206.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle206.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle206.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle206.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle206.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle206.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView7.DefaultCellStyle = dataGridViewCellStyle206;
             this.dataGridView7.Location = new System.Drawing.Point(741, 462);
             this.dataGridView7.Name = "dataGridView7";
             this.dataGridView7.RowHeadersVisible = false;
@@ -1856,8 +2775,8 @@
             // 
             // dataGridView6
             // 
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView6.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle207.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView6.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle207;
             this.dataGridView6.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView6.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView6.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1867,14 +2786,14 @@
             this.dataGridViewTextBoxColumn32,
             this.dataGridViewTextBoxColumn38,
             this.dataGridViewTextBoxColumn39});
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle208.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle208.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle208.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle208.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle208.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle208.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle208.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle208;
             this.dataGridView6.Location = new System.Drawing.Point(383, 462);
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.RowHeadersVisible = false;
@@ -1905,8 +2824,8 @@
             // 
             // dataGridView5
             // 
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView5.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle209.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView5.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle209;
             this.dataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView5.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1916,14 +2835,14 @@
             this.dataGridViewTextBoxColumn29,
             this.dataGridViewTextBoxColumn30,
             this.dataGridViewTextBoxColumn47});
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle210.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle210.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle210.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle210.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle210.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle210.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle210.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle210;
             this.dataGridView5.Location = new System.Drawing.Point(28, 462);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.RowHeadersVisible = false;
@@ -1954,8 +2873,8 @@
             // 
             // dataGridView4
             // 
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle211.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle211;
             this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView4.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -1965,14 +2884,14 @@
             this.dataGridViewTextBoxColumn26,
             this.dataGridViewTextBoxColumn27,
             this.dataGridViewTextBoxColumn45});
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle212.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle212.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle212.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle212.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle212.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle212.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle212.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle212;
             this.dataGridView4.Location = new System.Drawing.Point(738, 139);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowHeadersVisible = false;
@@ -2003,8 +2922,8 @@
             // 
             // dataGridView3
             // 
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle213.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle213;
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView3.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -2014,14 +2933,14 @@
             this.dataGridViewTextBoxColumn23,
             this.dataGridViewTextBoxColumn24,
             this.dataGridViewTextBoxColumn44});
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle214.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle214.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle214.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle214.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle214.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle214.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle214.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle214;
             this.dataGridView3.Location = new System.Drawing.Point(383, 139);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersVisible = false;
@@ -2131,8 +3050,8 @@
             // 
             // FCEdataGridView1
             // 
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.FCEdataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle215.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.FCEdataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle215;
             this.FCEdataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.FCEdataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.FCEdataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -2142,14 +3061,14 @@
             this.dataGridViewTextBoxColumn46,
             this.Column4,
             this.Column7});
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.FCEdataGridView1.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle216.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle216.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle216.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle216.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle216.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle216.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle216.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.FCEdataGridView1.DefaultCellStyle = dataGridViewCellStyle216;
             this.FCEdataGridView1.Location = new System.Drawing.Point(28, 139);
             this.FCEdataGridView1.Name = "FCEdataGridView1";
             this.FCEdataGridView1.RowHeadersVisible = false;
@@ -2241,16 +3160,16 @@
             this.panel2.Controls.Add(this.appSatisEffBtn2);
             this.panel2.Controls.Add(this.starResouEffBtn2);
             this.panel2.Controls.Add(this.appEffBtn2);
-            this.panel2.Location = new System.Drawing.Point(56, 2);
+            this.panel2.Location = new System.Drawing.Point(53, 58);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(950, 272);
+            this.panel2.Size = new System.Drawing.Size(950, 396);
             this.panel2.TabIndex = 35;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // targetCoverEffTxt
             // 
             this.targetCoverEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.targetCoverEffTxt.Location = new System.Drawing.Point(792, 242);
+            this.targetCoverEffTxt.Location = new System.Drawing.Point(792, 352);
             this.targetCoverEffTxt.Multiline = true;
             this.targetCoverEffTxt.Name = "targetCoverEffTxt";
             this.targetCoverEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2261,7 +3180,7 @@
             // coverRatioEffTxt
             // 
             this.coverRatioEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coverRatioEffTxt.Location = new System.Drawing.Point(906, 242);
+            this.coverRatioEffTxt.Location = new System.Drawing.Point(906, 352);
             this.coverRatioEffTxt.Multiline = true;
             this.coverRatioEffTxt.Name = "coverRatioEffTxt";
             this.coverRatioEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2272,7 +3191,7 @@
             // coverNumEffTxt
             // 
             this.coverNumEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coverNumEffTxt.Location = new System.Drawing.Point(868, 242);
+            this.coverNumEffTxt.Location = new System.Drawing.Point(868, 352);
             this.coverNumEffTxt.Multiline = true;
             this.coverNumEffTxt.Name = "coverNumEffTxt";
             this.coverNumEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2283,7 +3202,7 @@
             // geoEffTxt
             // 
             this.geoEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.geoEffTxt.Location = new System.Drawing.Point(604, 242);
+            this.geoEffTxt.Location = new System.Drawing.Point(604, 352);
             this.geoEffTxt.Multiline = true;
             this.geoEffTxt.Name = "geoEffTxt";
             this.geoEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2294,7 +3213,7 @@
             // averRevisitEffTxt
             // 
             this.averRevisitEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.averRevisitEffTxt.Location = new System.Drawing.Point(830, 242);
+            this.averRevisitEffTxt.Location = new System.Drawing.Point(830, 352);
             this.averRevisitEffTxt.Multiline = true;
             this.averRevisitEffTxt.Name = "averRevisitEffTxt";
             this.averRevisitEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2305,7 +3224,7 @@
             // temperEffTxt
             // 
             this.temperEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.temperEffTxt.Location = new System.Drawing.Point(262, 242);
+            this.temperEffTxt.Location = new System.Drawing.Point(262, 352);
             this.temperEffTxt.Multiline = true;
             this.temperEffTxt.Name = "temperEffTxt";
             this.temperEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2316,7 +3235,7 @@
             // neiborObserEffTxt
             // 
             this.neiborObserEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.neiborObserEffTxt.Location = new System.Drawing.Point(498, 242);
+            this.neiborObserEffTxt.Location = new System.Drawing.Point(498, 352);
             this.neiborObserEffTxt.Multiline = true;
             this.neiborObserEffTxt.Name = "neiborObserEffTxt";
             this.neiborObserEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2327,7 +3246,7 @@
             // radiationAccuracyEffTxt
             // 
             this.radiationAccuracyEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiationAccuracyEffTxt.Location = new System.Drawing.Point(718, 242);
+            this.radiationAccuracyEffTxt.Location = new System.Drawing.Point(718, 352);
             this.radiationAccuracyEffTxt.Multiline = true;
             this.radiationAccuracyEffTxt.Name = "radiationAccuracyEffTxt";
             this.radiationAccuracyEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2338,7 +3257,7 @@
             // taskResponseEffTxt
             // 
             this.taskResponseEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.taskResponseEffTxt.Location = new System.Drawing.Point(916, 70);
+            this.taskResponseEffTxt.Location = new System.Drawing.Point(916, 126);
             this.taskResponseEffTxt.Multiline = true;
             this.taskResponseEffTxt.Name = "taskResponseEffTxt";
             this.taskResponseEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2349,7 +3268,7 @@
             // higthEffTxt
             // 
             this.higthEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.higthEffTxt.Location = new System.Drawing.Point(680, 242);
+            this.higthEffTxt.Location = new System.Drawing.Point(680, 352);
             this.higthEffTxt.Multiline = true;
             this.higthEffTxt.Name = "higthEffTxt";
             this.higthEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2360,7 +3279,7 @@
             // scaleEffTxt
             // 
             this.scaleEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scaleEffTxt.Location = new System.Drawing.Point(224, 242);
+            this.scaleEffTxt.Location = new System.Drawing.Point(224, 352);
             this.scaleEffTxt.Multiline = true;
             this.scaleEffTxt.Name = "scaleEffTxt";
             this.scaleEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2371,7 +3290,7 @@
             // sampleEffTxt
             // 
             this.sampleEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sampleEffTxt.Location = new System.Drawing.Point(642, 242);
+            this.sampleEffTxt.Location = new System.Drawing.Point(642, 352);
             this.sampleEffTxt.Multiline = true;
             this.sampleEffTxt.Name = "sampleEffTxt";
             this.sampleEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2382,7 +3301,7 @@
             // observerAbilityEffTxt
             // 
             this.observerAbilityEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.observerAbilityEffTxt.Location = new System.Drawing.Point(726, 70);
+            this.observerAbilityEffTxt.Location = new System.Drawing.Point(726, 126);
             this.observerAbilityEffTxt.Multiline = true;
             this.observerAbilityEffTxt.Name = "observerAbilityEffTxt";
             this.observerAbilityEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2393,7 +3312,7 @@
             // storeEffTxt
             // 
             this.storeEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.storeEffTxt.Location = new System.Drawing.Point(110, 242);
+            this.storeEffTxt.Location = new System.Drawing.Point(110, 352);
             this.storeEffTxt.Multiline = true;
             this.storeEffTxt.Name = "storeEffTxt";
             this.storeEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2404,7 +3323,7 @@
             // observerRangeEffTxt
             // 
             this.observerRangeEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.observerRangeEffTxt.Location = new System.Drawing.Point(421, 242);
+            this.observerRangeEffTxt.Location = new System.Drawing.Point(421, 352);
             this.observerRangeEffTxt.Multiline = true;
             this.observerRangeEffTxt.Name = "observerRangeEffTxt";
             this.observerRangeEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2415,7 +3334,7 @@
             // coverRangeEffTxt
             // 
             this.coverRangeEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coverRangeEffTxt.Location = new System.Drawing.Point(529, 70);
+            this.coverRangeEffTxt.Location = new System.Drawing.Point(529, 126);
             this.coverRangeEffTxt.Multiline = true;
             this.coverRangeEffTxt.Name = "coverRangeEffTxt";
             this.coverRangeEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2426,7 +3345,7 @@
             // ceKongEffTxt
             // 
             this.ceKongEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ceKongEffTxt.Location = new System.Drawing.Point(71, 242);
+            this.ceKongEffTxt.Location = new System.Drawing.Point(71, 352);
             this.ceKongEffTxt.Multiline = true;
             this.ceKongEffTxt.Name = "ceKongEffTxt";
             this.ceKongEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2437,7 +3356,7 @@
             // windEffTxt
             // 
             this.windEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.windEffTxt.Location = new System.Drawing.Point(301, 242);
+            this.windEffTxt.Location = new System.Drawing.Point(301, 352);
             this.windEffTxt.Multiline = true;
             this.windEffTxt.Name = "windEffTxt";
             this.windEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2448,7 +3367,7 @@
             // appSatisifyEffTxt
             // 
             this.appSatisifyEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.appSatisifyEffTxt.Location = new System.Drawing.Point(332, 70);
+            this.appSatisifyEffTxt.Location = new System.Drawing.Point(332, 126);
             this.appSatisifyEffTxt.Multiline = true;
             this.appSatisifyEffTxt.Name = "appSatisifyEffTxt";
             this.appSatisifyEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2459,7 +3378,7 @@
             // shuchuanEffTxt
             // 
             this.shuchuanEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shuchuanEffTxt.Location = new System.Drawing.Point(33, 242);
+            this.shuchuanEffTxt.Location = new System.Drawing.Point(33, 352);
             this.shuchuanEffTxt.Multiline = true;
             this.shuchuanEffTxt.Name = "shuchuanEffTxt";
             this.shuchuanEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2470,7 +3389,7 @@
             // starLandEffTxt
             // 
             this.starLandEffTxt.Font = new System.Drawing.Font("Tahoma", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.starLandEffTxt.Location = new System.Drawing.Point(141, 70);
+            this.starLandEffTxt.Location = new System.Drawing.Point(141, 126);
             this.starLandEffTxt.Multiline = true;
             this.starLandEffTxt.Name = "starLandEffTxt";
             this.starLandEffTxt.Size = new System.Drawing.Size(26, 15);
@@ -2480,7 +3399,7 @@
             // 
             // taskResponEffBtn2
             // 
-            this.taskResponEffBtn2.Location = new System.Drawing.Point(807, 54);
+            this.taskResponEffBtn2.Location = new System.Drawing.Point(807, 109);
             this.taskResponEffBtn2.Name = "taskResponEffBtn2";
             this.taskResponEffBtn2.Size = new System.Drawing.Size(109, 32);
             this.taskResponEffBtn2.TabIndex = 42;
@@ -2489,7 +3408,7 @@
             // 
             // textBox37
             // 
-            this.textBox37.Location = new System.Drawing.Point(206, 128);
+            this.textBox37.Location = new System.Drawing.Point(206, 238);
             this.textBox37.Multiline = true;
             this.textBox37.Name = "textBox37";
             this.textBox37.Size = new System.Drawing.Size(0, 0);
@@ -2498,7 +3417,7 @@
             // 
             // neiborObserOverEffBtn2
             // 
-            this.neiborObserOverEffBtn2.Location = new System.Drawing.Point(498, 99);
+            this.neiborObserOverEffBtn2.Location = new System.Drawing.Point(498, 209);
             this.neiborObserOverEffBtn2.Name = "neiborObserOverEffBtn2";
             this.neiborObserOverEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.neiborObserOverEffBtn2.TabIndex = 4;
@@ -2507,7 +3426,7 @@
             // 
             // obserRangeEffBtn2
             // 
-            this.obserRangeEffBtn2.Location = new System.Drawing.Point(421, 99);
+            this.obserRangeEffBtn2.Location = new System.Drawing.Point(421, 209);
             this.obserRangeEffBtn2.Name = "obserRangeEffBtn2";
             this.obserRangeEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.obserRangeEffBtn2.TabIndex = 4;
@@ -2516,7 +3435,7 @@
             // 
             // coverRatioEffBtn2
             // 
-            this.coverRatioEffBtn2.Location = new System.Drawing.Point(906, 99);
+            this.coverRatioEffBtn2.Location = new System.Drawing.Point(906, 209);
             this.coverRatioEffBtn2.Name = "coverRatioEffBtn2";
             this.coverRatioEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.coverRatioEffBtn2.TabIndex = 4;
@@ -2525,7 +3444,7 @@
             // 
             // coverNumEffBtn2
             // 
-            this.coverNumEffBtn2.Location = new System.Drawing.Point(868, 99);
+            this.coverNumEffBtn2.Location = new System.Drawing.Point(868, 209);
             this.coverNumEffBtn2.Name = "coverNumEffBtn2";
             this.coverNumEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.coverNumEffBtn2.TabIndex = 4;
@@ -2534,7 +3453,7 @@
             // 
             // radiationAccuraEffBtn2
             // 
-            this.radiationAccuraEffBtn2.Location = new System.Drawing.Point(718, 99);
+            this.radiationAccuraEffBtn2.Location = new System.Drawing.Point(718, 209);
             this.radiationAccuraEffBtn2.Name = "radiationAccuraEffBtn2";
             this.radiationAccuraEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.radiationAccuraEffBtn2.TabIndex = 4;
@@ -2543,7 +3462,7 @@
             // 
             // averageRevisitEffBtn2
             // 
-            this.averageRevisitEffBtn2.Location = new System.Drawing.Point(830, 99);
+            this.averageRevisitEffBtn2.Location = new System.Drawing.Point(830, 209);
             this.averageRevisitEffBtn2.Name = "averageRevisitEffBtn2";
             this.averageRevisitEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.averageRevisitEffBtn2.TabIndex = 4;
@@ -2552,7 +3471,7 @@
             // 
             // hightAccuracyEffBtn2
             // 
-            this.hightAccuracyEffBtn2.Location = new System.Drawing.Point(680, 99);
+            this.hightAccuracyEffBtn2.Location = new System.Drawing.Point(680, 209);
             this.hightAccuracyEffBtn2.Name = "hightAccuracyEffBtn2";
             this.hightAccuracyEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.hightAccuracyEffBtn2.TabIndex = 4;
@@ -2561,7 +3480,7 @@
             // 
             // landSamplingEffBtn2
             // 
-            this.landSamplingEffBtn2.Location = new System.Drawing.Point(642, 99);
+            this.landSamplingEffBtn2.Location = new System.Drawing.Point(642, 209);
             this.landSamplingEffBtn2.Name = "landSamplingEffBtn2";
             this.landSamplingEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.landSamplingEffBtn2.TabIndex = 4;
@@ -2570,7 +3489,7 @@
             // 
             // windEffBtn2
             // 
-            this.windEffBtn2.Location = new System.Drawing.Point(301, 99);
+            this.windEffBtn2.Location = new System.Drawing.Point(301, 209);
             this.windEffBtn2.Name = "windEffBtn2";
             this.windEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.windEffBtn2.TabIndex = 4;
@@ -2579,7 +3498,7 @@
             // 
             // targetCoverTimeEffBtn2
             // 
-            this.targetCoverTimeEffBtn2.Location = new System.Drawing.Point(792, 99);
+            this.targetCoverTimeEffBtn2.Location = new System.Drawing.Point(792, 209);
             this.targetCoverTimeEffBtn2.Name = "targetCoverTimeEffBtn2";
             this.targetCoverTimeEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.targetCoverTimeEffBtn2.TabIndex = 4;
@@ -2588,7 +3507,7 @@
             // 
             // temperEffBtn2
             // 
-            this.temperEffBtn2.Location = new System.Drawing.Point(262, 99);
+            this.temperEffBtn2.Location = new System.Drawing.Point(262, 209);
             this.temperEffBtn2.Name = "temperEffBtn2";
             this.temperEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.temperEffBtn2.TabIndex = 4;
@@ -2597,7 +3516,7 @@
             // 
             // geoAccuracyEffBtn2
             // 
-            this.geoAccuracyEffBtn2.Location = new System.Drawing.Point(604, 99);
+            this.geoAccuracyEffBtn2.Location = new System.Drawing.Point(604, 209);
             this.geoAccuracyEffBtn2.Name = "geoAccuracyEffBtn2";
             this.geoAccuracyEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.geoAccuracyEffBtn2.TabIndex = 4;
@@ -2606,7 +3525,7 @@
             // 
             // storeEffBtn2
             // 
-            this.storeEffBtn2.Location = new System.Drawing.Point(110, 99);
+            this.storeEffBtn2.Location = new System.Drawing.Point(110, 209);
             this.storeEffBtn2.Name = "storeEffBtn2";
             this.storeEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.storeEffBtn2.TabIndex = 4;
@@ -2615,7 +3534,7 @@
             // 
             // scaleEffBtn2
             // 
-            this.scaleEffBtn2.Location = new System.Drawing.Point(224, 99);
+            this.scaleEffBtn2.Location = new System.Drawing.Point(224, 209);
             this.scaleEffBtn2.Name = "scaleEffBtn2";
             this.scaleEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.scaleEffBtn2.TabIndex = 4;
@@ -2624,7 +3543,7 @@
             // 
             // ceKongEffBtn2
             // 
-            this.ceKongEffBtn2.Location = new System.Drawing.Point(71, 99);
+            this.ceKongEffBtn2.Location = new System.Drawing.Point(71, 209);
             this.ceKongEffBtn2.Name = "ceKongEffBtn2";
             this.ceKongEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.ceKongEffBtn2.TabIndex = 4;
@@ -2633,7 +3552,7 @@
             // 
             // shuChuanEffBtn2
             // 
-            this.shuChuanEffBtn2.Location = new System.Drawing.Point(33, 99);
+            this.shuChuanEffBtn2.Location = new System.Drawing.Point(33, 209);
             this.shuChuanEffBtn2.Name = "shuChuanEffBtn2";
             this.shuChuanEffBtn2.Size = new System.Drawing.Size(32, 137);
             this.shuChuanEffBtn2.TabIndex = 4;
@@ -2642,7 +3561,7 @@
             // 
             // obserAbilityEffBtn2
             // 
-            this.obserAbilityEffBtn2.Location = new System.Drawing.Point(618, 54);
+            this.obserAbilityEffBtn2.Location = new System.Drawing.Point(618, 109);
             this.obserAbilityEffBtn2.Name = "obserAbilityEffBtn2";
             this.obserAbilityEffBtn2.Size = new System.Drawing.Size(109, 32);
             this.obserAbilityEffBtn2.TabIndex = 3;
@@ -2651,7 +3570,7 @@
             // 
             // coverRangeEffBtn2
             // 
-            this.coverRangeEffBtn2.Location = new System.Drawing.Point(421, 54);
+            this.coverRangeEffBtn2.Location = new System.Drawing.Point(421, 109);
             this.coverRangeEffBtn2.Name = "coverRangeEffBtn2";
             this.coverRangeEffBtn2.Size = new System.Drawing.Size(109, 32);
             this.coverRangeEffBtn2.TabIndex = 3;
@@ -2660,7 +3579,7 @@
             // 
             // appSatisEffBtn2
             // 
-            this.appSatisEffBtn2.Location = new System.Drawing.Point(224, 54);
+            this.appSatisEffBtn2.Location = new System.Drawing.Point(224, 109);
             this.appSatisEffBtn2.Name = "appSatisEffBtn2";
             this.appSatisEffBtn2.Size = new System.Drawing.Size(109, 32);
             this.appSatisEffBtn2.TabIndex = 2;
@@ -2669,7 +3588,7 @@
             // 
             // starResouEffBtn2
             // 
-            this.starResouEffBtn2.Location = new System.Drawing.Point(33, 54);
+            this.starResouEffBtn2.Location = new System.Drawing.Point(33, 109);
             this.starResouEffBtn2.Name = "starResouEffBtn2";
             this.starResouEffBtn2.Size = new System.Drawing.Size(109, 32);
             this.starResouEffBtn2.TabIndex = 1;
@@ -2684,10 +3603,11 @@
             this.appEffBtn2.TabIndex = 0;
             this.appEffBtn2.Text = "应用效能";
             this.appEffBtn2.UseVisualStyleBackColor = true;
+            this.appEffBtn2.Click += new System.EventHandler(this.appEffBtn2_Click);
             // 
             // label17
             // 
-            this.label17.Location = new System.Drawing.Point(56, 284);
+            this.label17.Location = new System.Drawing.Point(50, 13);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(160, 22);
             this.label17.TabIndex = 34;
@@ -2699,7 +3619,7 @@
             this.parameterEffComboBox.Items.AddRange(new object[] {
             "重要性比例",
             "指标权重"});
-            this.parameterEffComboBox.Location = new System.Drawing.Point(56, 326);
+            this.parameterEffComboBox.Location = new System.Drawing.Point(216, 13);
             this.parameterEffComboBox.Name = "parameterEffComboBox";
             this.parameterEffComboBox.Size = new System.Drawing.Size(94, 22);
             this.parameterEffComboBox.TabIndex = 33;
@@ -2714,7 +3634,7 @@
             this.groupBox18.Controls.Add(this.label19);
             this.groupBox18.Controls.Add(this.label18);
             this.groupBox18.Controls.Add(this.textBox15);
-            this.groupBox18.Location = new System.Drawing.Point(335, 277);
+            this.groupBox18.Location = new System.Drawing.Point(335, 622);
             this.groupBox18.Name = "groupBox18";
             this.groupBox18.Size = new System.Drawing.Size(507, 188);
             this.groupBox18.TabIndex = 32;
@@ -2796,7 +3716,7 @@
             // 
             // AHPEffBtn
             // 
-            this.AHPEffBtn.Location = new System.Drawing.Point(854, 291);
+            this.AHPEffBtn.Location = new System.Drawing.Point(854, 636);
             this.AHPEffBtn.Name = "AHPEffBtn";
             this.AHPEffBtn.Size = new System.Drawing.Size(100, 40);
             this.AHPEffBtn.TabIndex = 18;
@@ -2805,7 +3725,7 @@
             // 
             // AHPFCEEffBtn
             // 
-            this.AHPFCEEffBtn.Location = new System.Drawing.Point(854, 369);
+            this.AHPFCEEffBtn.Location = new System.Drawing.Point(854, 714);
             this.AHPFCEEffBtn.Name = "AHPFCEEffBtn";
             this.AHPFCEEffBtn.Size = new System.Drawing.Size(100, 40);
             this.AHPFCEEffBtn.TabIndex = 17;
@@ -2838,15 +3758,15 @@
             this.panel1.Controls.Add(this.appSatisEffBtn);
             this.panel1.Controls.Add(this.starResouEffBtn);
             this.panel1.Controls.Add(this.appEffBtn);
-            this.panel1.Location = new System.Drawing.Point(56, 2);
+            this.panel1.Location = new System.Drawing.Point(53, 58);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(950, 272);
+            this.panel1.Size = new System.Drawing.Size(950, 396);
             this.panel1.TabIndex = 30;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // taskResponEffBtn
             // 
-            this.taskResponEffBtn.Location = new System.Drawing.Point(807, 54);
+            this.taskResponEffBtn.Location = new System.Drawing.Point(807, 110);
             this.taskResponEffBtn.Name = "taskResponEffBtn";
             this.taskResponEffBtn.Size = new System.Drawing.Size(109, 32);
             this.taskResponEffBtn.TabIndex = 42;
@@ -2856,7 +3776,7 @@
             // 
             // textBox53
             // 
-            this.textBox53.Location = new System.Drawing.Point(206, 128);
+            this.textBox53.Location = new System.Drawing.Point(206, 240);
             this.textBox53.Multiline = true;
             this.textBox53.Name = "textBox53";
             this.textBox53.Size = new System.Drawing.Size(0, 0);
@@ -2865,7 +3785,7 @@
             // 
             // neiborObserOverEffBtn
             // 
-            this.neiborObserOverEffBtn.Location = new System.Drawing.Point(498, 99);
+            this.neiborObserOverEffBtn.Location = new System.Drawing.Point(498, 211);
             this.neiborObserOverEffBtn.Name = "neiborObserOverEffBtn";
             this.neiborObserOverEffBtn.Size = new System.Drawing.Size(32, 137);
             this.neiborObserOverEffBtn.TabIndex = 4;
@@ -2874,7 +3794,7 @@
             // 
             // obserRangeEffBtn
             // 
-            this.obserRangeEffBtn.Location = new System.Drawing.Point(421, 99);
+            this.obserRangeEffBtn.Location = new System.Drawing.Point(421, 211);
             this.obserRangeEffBtn.Name = "obserRangeEffBtn";
             this.obserRangeEffBtn.Size = new System.Drawing.Size(32, 137);
             this.obserRangeEffBtn.TabIndex = 4;
@@ -2883,7 +3803,7 @@
             // 
             // coverRatioEffBtn
             // 
-            this.coverRatioEffBtn.Location = new System.Drawing.Point(906, 99);
+            this.coverRatioEffBtn.Location = new System.Drawing.Point(906, 211);
             this.coverRatioEffBtn.Name = "coverRatioEffBtn";
             this.coverRatioEffBtn.Size = new System.Drawing.Size(32, 137);
             this.coverRatioEffBtn.TabIndex = 4;
@@ -2892,7 +3812,7 @@
             // 
             // coverNumEffBtn
             // 
-            this.coverNumEffBtn.Location = new System.Drawing.Point(868, 99);
+            this.coverNumEffBtn.Location = new System.Drawing.Point(868, 211);
             this.coverNumEffBtn.Name = "coverNumEffBtn";
             this.coverNumEffBtn.Size = new System.Drawing.Size(32, 137);
             this.coverNumEffBtn.TabIndex = 4;
@@ -2901,7 +3821,7 @@
             // 
             // radiationAccuraEffBtn
             // 
-            this.radiationAccuraEffBtn.Location = new System.Drawing.Point(718, 99);
+            this.radiationAccuraEffBtn.Location = new System.Drawing.Point(718, 211);
             this.radiationAccuraEffBtn.Name = "radiationAccuraEffBtn";
             this.radiationAccuraEffBtn.Size = new System.Drawing.Size(32, 137);
             this.radiationAccuraEffBtn.TabIndex = 4;
@@ -2910,7 +3830,7 @@
             // 
             // averageRevisitEffBtn
             // 
-            this.averageRevisitEffBtn.Location = new System.Drawing.Point(830, 99);
+            this.averageRevisitEffBtn.Location = new System.Drawing.Point(830, 211);
             this.averageRevisitEffBtn.Name = "averageRevisitEffBtn";
             this.averageRevisitEffBtn.Size = new System.Drawing.Size(32, 137);
             this.averageRevisitEffBtn.TabIndex = 4;
@@ -2919,7 +3839,7 @@
             // 
             // hightAccuracyEffBtn
             // 
-            this.hightAccuracyEffBtn.Location = new System.Drawing.Point(680, 99);
+            this.hightAccuracyEffBtn.Location = new System.Drawing.Point(680, 211);
             this.hightAccuracyEffBtn.Name = "hightAccuracyEffBtn";
             this.hightAccuracyEffBtn.Size = new System.Drawing.Size(32, 137);
             this.hightAccuracyEffBtn.TabIndex = 4;
@@ -2928,7 +3848,7 @@
             // 
             // landSamplingEffBtn
             // 
-            this.landSamplingEffBtn.Location = new System.Drawing.Point(642, 99);
+            this.landSamplingEffBtn.Location = new System.Drawing.Point(642, 211);
             this.landSamplingEffBtn.Name = "landSamplingEffBtn";
             this.landSamplingEffBtn.Size = new System.Drawing.Size(32, 137);
             this.landSamplingEffBtn.TabIndex = 4;
@@ -2937,7 +3857,7 @@
             // 
             // windEffBtn
             // 
-            this.windEffBtn.Location = new System.Drawing.Point(301, 99);
+            this.windEffBtn.Location = new System.Drawing.Point(301, 211);
             this.windEffBtn.Name = "windEffBtn";
             this.windEffBtn.Size = new System.Drawing.Size(32, 137);
             this.windEffBtn.TabIndex = 4;
@@ -2946,7 +3866,7 @@
             // 
             // targetCoverTimeEffBtn
             // 
-            this.targetCoverTimeEffBtn.Location = new System.Drawing.Point(792, 99);
+            this.targetCoverTimeEffBtn.Location = new System.Drawing.Point(792, 211);
             this.targetCoverTimeEffBtn.Name = "targetCoverTimeEffBtn";
             this.targetCoverTimeEffBtn.Size = new System.Drawing.Size(32, 137);
             this.targetCoverTimeEffBtn.TabIndex = 4;
@@ -2955,7 +3875,7 @@
             // 
             // temperEffBtn
             // 
-            this.temperEffBtn.Location = new System.Drawing.Point(262, 99);
+            this.temperEffBtn.Location = new System.Drawing.Point(262, 211);
             this.temperEffBtn.Name = "temperEffBtn";
             this.temperEffBtn.Size = new System.Drawing.Size(32, 137);
             this.temperEffBtn.TabIndex = 4;
@@ -2964,7 +3884,7 @@
             // 
             // geoAccuracyEffBtn
             // 
-            this.geoAccuracyEffBtn.Location = new System.Drawing.Point(604, 99);
+            this.geoAccuracyEffBtn.Location = new System.Drawing.Point(604, 211);
             this.geoAccuracyEffBtn.Name = "geoAccuracyEffBtn";
             this.geoAccuracyEffBtn.Size = new System.Drawing.Size(32, 137);
             this.geoAccuracyEffBtn.TabIndex = 4;
@@ -2973,7 +3893,7 @@
             // 
             // storeEffBtn
             // 
-            this.storeEffBtn.Location = new System.Drawing.Point(110, 99);
+            this.storeEffBtn.Location = new System.Drawing.Point(110, 211);
             this.storeEffBtn.Name = "storeEffBtn";
             this.storeEffBtn.Size = new System.Drawing.Size(32, 137);
             this.storeEffBtn.TabIndex = 4;
@@ -2982,7 +3902,7 @@
             // 
             // scaleEffBtn
             // 
-            this.scaleEffBtn.Location = new System.Drawing.Point(224, 99);
+            this.scaleEffBtn.Location = new System.Drawing.Point(224, 211);
             this.scaleEffBtn.Name = "scaleEffBtn";
             this.scaleEffBtn.Size = new System.Drawing.Size(32, 137);
             this.scaleEffBtn.TabIndex = 4;
@@ -2991,7 +3911,7 @@
             // 
             // ceKongEffBtn
             // 
-            this.ceKongEffBtn.Location = new System.Drawing.Point(71, 99);
+            this.ceKongEffBtn.Location = new System.Drawing.Point(71, 211);
             this.ceKongEffBtn.Name = "ceKongEffBtn";
             this.ceKongEffBtn.Size = new System.Drawing.Size(32, 137);
             this.ceKongEffBtn.TabIndex = 4;
@@ -3000,7 +3920,7 @@
             // 
             // shuChuanEffBtn
             // 
-            this.shuChuanEffBtn.Location = new System.Drawing.Point(33, 99);
+            this.shuChuanEffBtn.Location = new System.Drawing.Point(33, 211);
             this.shuChuanEffBtn.Name = "shuChuanEffBtn";
             this.shuChuanEffBtn.Size = new System.Drawing.Size(32, 137);
             this.shuChuanEffBtn.TabIndex = 4;
@@ -3009,7 +3929,7 @@
             // 
             // obserAbilityEffBtn
             // 
-            this.obserAbilityEffBtn.Location = new System.Drawing.Point(618, 54);
+            this.obserAbilityEffBtn.Location = new System.Drawing.Point(618, 110);
             this.obserAbilityEffBtn.Name = "obserAbilityEffBtn";
             this.obserAbilityEffBtn.Size = new System.Drawing.Size(109, 32);
             this.obserAbilityEffBtn.TabIndex = 3;
@@ -3019,7 +3939,7 @@
             // 
             // coverRangeEffBtn
             // 
-            this.coverRangeEffBtn.Location = new System.Drawing.Point(421, 54);
+            this.coverRangeEffBtn.Location = new System.Drawing.Point(421, 110);
             this.coverRangeEffBtn.Name = "coverRangeEffBtn";
             this.coverRangeEffBtn.Size = new System.Drawing.Size(109, 32);
             this.coverRangeEffBtn.TabIndex = 3;
@@ -3029,7 +3949,7 @@
             // 
             // appSatisEffBtn
             // 
-            this.appSatisEffBtn.Location = new System.Drawing.Point(224, 54);
+            this.appSatisEffBtn.Location = new System.Drawing.Point(224, 110);
             this.appSatisEffBtn.Name = "appSatisEffBtn";
             this.appSatisEffBtn.Size = new System.Drawing.Size(109, 32);
             this.appSatisEffBtn.TabIndex = 2;
@@ -3039,7 +3959,7 @@
             // 
             // starResouEffBtn
             // 
-            this.starResouEffBtn.Location = new System.Drawing.Point(33, 54);
+            this.starResouEffBtn.Location = new System.Drawing.Point(33, 110);
             this.starResouEffBtn.Name = "starResouEffBtn";
             this.starResouEffBtn.Size = new System.Drawing.Size(109, 32);
             this.starResouEffBtn.TabIndex = 1;
@@ -3606,33 +4526,33 @@
             this.AHPdataGridView1.AllowUserToAddRows = false;
             this.AHPdataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.AHPdataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle217.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle217.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle217.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle217.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle217.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle217.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle217.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle217;
             this.AHPdataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.AHPdataGridView1.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle218.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle218.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle218.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle218.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle218.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle218.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle218.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.AHPdataGridView1.DefaultCellStyle = dataGridViewCellStyle218;
             this.AHPdataGridView1.Location = new System.Drawing.Point(11, 12);
             this.AHPdataGridView1.Name = "AHPdataGridView1";
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle219.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle219.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle219.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle219.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle219.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle219.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle219.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle219;
             this.AHPdataGridView1.RowHeadersWidth = 50;
             this.AHPdataGridView1.RowTemplate.Height = 23;
             this.AHPdataGridView1.Size = new System.Drawing.Size(292, 203);
@@ -3658,33 +4578,33 @@
             this.AHPdataGridView2.AllowUserToAddRows = false;
             this.AHPdataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.AHPdataGridView2.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle220.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle220.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle220.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle220.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle220.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle220.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle220.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle220;
             this.AHPdataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle31.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle31.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.AHPdataGridView2.DefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle221.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle221.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle221.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle221.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle221.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle221.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle221.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.AHPdataGridView2.DefaultCellStyle = dataGridViewCellStyle221;
             this.AHPdataGridView2.Location = new System.Drawing.Point(11, 258);
             this.AHPdataGridView2.Name = "AHPdataGridView2";
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle222.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle222.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle222.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle222.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle222.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle222.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle222.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle222;
             this.AHPdataGridView2.RowHeadersWidth = 50;
             this.AHPdataGridView2.RowTemplate.Height = 23;
             this.AHPdataGridView2.Size = new System.Drawing.Size(292, 203);
@@ -3710,33 +4630,33 @@
             this.AHPdataGridView4.AllowUserToAddRows = false;
             this.AHPdataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.AHPdataGridView4.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle223.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle223.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle223.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle223.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle223.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle223.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle223.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle223;
             this.AHPdataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle34.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle34.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.AHPdataGridView4.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle224.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle224.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle224.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle224.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle224.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle224.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle224.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.AHPdataGridView4.DefaultCellStyle = dataGridViewCellStyle224;
             this.AHPdataGridView4.Location = new System.Drawing.Point(319, 12);
             this.AHPdataGridView4.Name = "AHPdataGridView4";
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle225.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle225.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle225.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle225.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle225.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle225.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle225.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle225;
             this.AHPdataGridView4.RowHeadersWidth = 50;
             this.AHPdataGridView4.RowTemplate.Height = 23;
             this.AHPdataGridView4.Size = new System.Drawing.Size(292, 203);
@@ -3762,33 +4682,33 @@
             this.AHPdataGridView3.AllowUserToAddRows = false;
             this.AHPdataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.AHPdataGridView3.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle36.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle36.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle226.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle226.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle226.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle226.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle226.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle226.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle226.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle226;
             this.AHPdataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle37.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.AHPdataGridView3.DefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle227.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle227.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle227.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle227.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle227.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle227.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle227.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.AHPdataGridView3.DefaultCellStyle = dataGridViewCellStyle227;
             this.AHPdataGridView3.Location = new System.Drawing.Point(319, 258);
             this.AHPdataGridView3.Name = "AHPdataGridView3";
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AHPdataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle228.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle228.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle228.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle228.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle228.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle228.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle228.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AHPdataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle228;
             this.AHPdataGridView3.RowHeadersWidth = 50;
             this.AHPdataGridView3.RowTemplate.Height = 23;
             this.AHPdataGridView3.Size = new System.Drawing.Size(292, 203);
@@ -4045,925 +4965,6 @@
             this.textBox7.TabIndex = 5;
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // tabPage9
-            // 
-            this.tabPage9.Controls.Add(this.groupBox9);
-            this.tabPage9.Controls.Add(this.groupBox10);
-            this.tabPage9.Controls.Add(this.groupBox7);
-            this.tabPage9.Controls.Add(this.groupBox6);
-            this.tabPage9.Controls.Add(this.groupBox5);
-            this.tabPage9.Controls.Add(this.label2);
-            this.tabPage9.Controls.Add(this.dataGridView1);
-            this.tabPage9.Controls.Add(this.groupBox4);
-            this.tabPage9.Controls.Add(this.groupBox3);
-            this.tabPage9.Controls.Add(this.groupBox2);
-            this.tabPage9.Controls.Add(this.groupBox1);
-            this.tabPage9.Location = new System.Drawing.Point(4, 23);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1060, 883);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "体系方案";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            this.tabPage9.Click += new System.EventHandler(this.tabPage9_Click);
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.electromagnetic);
-            this.groupBox4.Location = new System.Drawing.Point(810, 79);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(206, 41);
-            this.groupBox4.TabIndex = 13;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "电磁";
-            // 
-            // electromagnetic
-            // 
-            this.electromagnetic.AutoSize = true;
-            this.electromagnetic.Location = new System.Drawing.Point(53, 14);
-            this.electromagnetic.Name = "electromagnetic";
-            this.electromagnetic.Size = new System.Drawing.Size(98, 18);
-            this.electromagnetic.TabIndex = 3;
-            this.electromagnetic.Text = "电磁探测类型";
-            this.electromagnetic.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.laser);
-            this.groupBox3.Location = new System.Drawing.Point(810, 18);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(206, 43);
-            this.groupBox3.TabIndex = 12;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "激光";
-            // 
-            // laser
-            // 
-            this.laser.AutoSize = true;
-            this.laser.Location = new System.Drawing.Point(57, 17);
-            this.laser.Name = "laser";
-            this.laser.Size = new System.Drawing.Size(98, 18);
-            this.laser.TabIndex = 2;
-            this.laser.Text = "激光测高类型";
-            this.laser.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.ultraviolet);
-            this.groupBox2.Controls.Add(this.shimmer);
-            this.groupBox2.Controls.Add(this.hyperspectral);
-            this.groupBox2.Controls.Add(this.visibleLight);
-            this.groupBox2.Controls.Add(this.infrared);
-            this.groupBox2.Controls.Add(this.panchromatic);
-            this.groupBox2.Location = new System.Drawing.Point(373, 18);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(377, 102);
-            this.groupBox2.TabIndex = 11;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "光学";
-            // 
-            // ultraviolet
-            // 
-            this.ultraviolet.AutoSize = true;
-            this.ultraviolet.Location = new System.Drawing.Point(301, 58);
-            this.ultraviolet.Name = "ultraviolet";
-            this.ultraviolet.Size = new System.Drawing.Size(74, 18);
-            this.ultraviolet.TabIndex = 6;
-            this.ultraviolet.Text = "紫外类型";
-            this.ultraviolet.UseVisualStyleBackColor = true;
-            // 
-            // shimmer
-            // 
-            this.shimmer.AutoSize = true;
-            this.shimmer.Location = new System.Drawing.Point(301, 23);
-            this.shimmer.Name = "shimmer";
-            this.shimmer.Size = new System.Drawing.Size(74, 18);
-            this.shimmer.TabIndex = 5;
-            this.shimmer.Text = "微光类型";
-            this.shimmer.UseVisualStyleBackColor = true;
-            // 
-            // hyperspectral
-            // 
-            this.hyperspectral.AutoSize = true;
-            this.hyperspectral.Location = new System.Drawing.Point(42, 58);
-            this.hyperspectral.Name = "hyperspectral";
-            this.hyperspectral.Size = new System.Drawing.Size(103, 18);
-            this.hyperspectral.TabIndex = 4;
-            this.hyperspectral.Text = "高/超光谱类型";
-            this.hyperspectral.UseVisualStyleBackColor = true;
-            // 
-            // visibleLight
-            // 
-            this.visibleLight.AutoSize = true;
-            this.visibleLight.Location = new System.Drawing.Point(145, 23);
-            this.visibleLight.Name = "visibleLight";
-            this.visibleLight.Size = new System.Drawing.Size(127, 18);
-            this.visibleLight.TabIndex = 3;
-            this.visibleLight.Text = "可见光/近红外类型";
-            this.visibleLight.UseVisualStyleBackColor = true;
-            // 
-            // infrared
-            // 
-            this.infrared.AutoSize = true;
-            this.infrared.Location = new System.Drawing.Point(145, 58);
-            this.infrared.Name = "infrared";
-            this.infrared.Size = new System.Drawing.Size(74, 18);
-            this.infrared.TabIndex = 2;
-            this.infrared.Text = "红外类型";
-            this.infrared.UseVisualStyleBackColor = true;
-            // 
-            // panchromatic
-            // 
-            this.panchromatic.AutoSize = true;
-            this.panchromatic.Location = new System.Drawing.Point(42, 23);
-            this.panchromatic.Name = "panchromatic";
-            this.panchromatic.Size = new System.Drawing.Size(74, 18);
-            this.panchromatic.TabIndex = 1;
-            this.panchromatic.Text = "全色类型";
-            this.panchromatic.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.microwaveScatterometer);
-            this.groupBox1.Controls.Add(this.microwaveAltimeter);
-            this.groupBox1.Controls.Add(this.microwaveRadiometer);
-            this.groupBox1.Controls.Add(this.SAR);
-            this.groupBox1.Location = new System.Drawing.Point(40, 18);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(273, 102);
-            this.groupBox1.TabIndex = 10;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "微波";
-            // 
-            // microwaveScatterometer
-            // 
-            this.microwaveScatterometer.AutoSize = true;
-            this.microwaveScatterometer.Location = new System.Drawing.Point(155, 58);
-            this.microwaveScatterometer.Name = "microwaveScatterometer";
-            this.microwaveScatterometer.Size = new System.Drawing.Size(110, 18);
-            this.microwaveScatterometer.TabIndex = 3;
-            this.microwaveScatterometer.Text = "微波散射计类型";
-            this.microwaveScatterometer.UseVisualStyleBackColor = true;
-            // 
-            // microwaveAltimeter
-            // 
-            this.microwaveAltimeter.AutoSize = true;
-            this.microwaveAltimeter.Location = new System.Drawing.Point(155, 23);
-            this.microwaveAltimeter.Name = "microwaveAltimeter";
-            this.microwaveAltimeter.Size = new System.Drawing.Size(110, 18);
-            this.microwaveAltimeter.TabIndex = 2;
-            this.microwaveAltimeter.Text = "微波高度计类型";
-            this.microwaveAltimeter.UseVisualStyleBackColor = true;
-            // 
-            // microwaveRadiometer
-            // 
-            this.microwaveRadiometer.AutoSize = true;
-            this.microwaveRadiometer.Location = new System.Drawing.Point(40, 58);
-            this.microwaveRadiometer.Name = "microwaveRadiometer";
-            this.microwaveRadiometer.Size = new System.Drawing.Size(110, 18);
-            this.microwaveRadiometer.TabIndex = 1;
-            this.microwaveRadiometer.Text = "微波辐射计类型";
-            this.microwaveRadiometer.UseVisualStyleBackColor = true;
-            // 
-            // SAR
-            // 
-            this.SAR.AutoSize = true;
-            this.SAR.Location = new System.Drawing.Point(40, 23);
-            this.SAR.Name = "SAR";
-            this.SAR.Size = new System.Drawing.Size(96, 18);
-            this.SAR.TabIndex = 0;
-            this.SAR.Text = "成像SAR类型";
-            this.SAR.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.SAR.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(2, 352);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1055, 37);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "待评估体系方案";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.loadType,
-            this.satelliteModel,
-            this.loadName,
-            this.spatialResolution,
-            this.width,
-            this.MssAngle,
-            this.orbitalCycle,
-            this.revisitCycle,
-            this.spectralResolution,
-            this.spectralRange,
-            this.numberSpectra});
-            this.dataGridView1.Location = new System.Drawing.Point(2, 399);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(1058, 466);
-            this.dataGridView1.TabIndex = 14;
-            // 
-            // loadType
-            // 
-            this.loadType.HeaderText = "载荷类型";
-            this.loadType.Name = "loadType";
-            // 
-            // satelliteModel
-            // 
-            this.satelliteModel.HeaderText = "卫星型号";
-            this.satelliteModel.Name = "satelliteModel";
-            // 
-            // loadName
-            // 
-            this.loadName.HeaderText = "载荷名称";
-            this.loadName.Name = "loadName";
-            // 
-            // spatialResolution
-            // 
-            this.spatialResolution.HeaderText = "空间分辨率（m）";
-            this.spatialResolution.Name = "spatialResolution";
-            // 
-            // width
-            // 
-            this.width.HeaderText = "幅宽（km）";
-            this.width.Name = "width";
-            // 
-            // MssAngle
-            // 
-            this.MssAngle.HeaderText = "最大侧摆角";
-            this.MssAngle.Name = "MssAngle";
-            // 
-            // orbitalCycle
-            // 
-            this.orbitalCycle.HeaderText = "轨道周期";
-            this.orbitalCycle.Name = "orbitalCycle";
-            // 
-            // revisitCycle
-            // 
-            this.revisitCycle.HeaderText = "重访周期";
-            this.revisitCycle.Name = "revisitCycle";
-            // 
-            // spectralResolution
-            // 
-            this.spectralResolution.HeaderText = "光谱分辨率";
-            this.spectralResolution.Name = "spectralResolution";
-            // 
-            // spectralRange
-            // 
-            this.spectralRange.HeaderText = "光谱范围";
-            this.spectralRange.Name = "spectralRange";
-            // 
-            // numberSpectra
-            // 
-            this.numberSpectra.HeaderText = "光谱个数";
-            this.numberSpectra.Name = "numberSpectra";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.xx3);
-            this.groupBox9.Controls.Add(this.xx103);
-            this.groupBox9.Controls.Add(this.xx2);
-            this.groupBox9.Controls.Add(this.xx101);
-            this.groupBox9.Controls.Add(this.xx102);
-            this.groupBox9.Location = new System.Drawing.Point(568, 182);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(201, 155);
-            this.groupBox9.TabIndex = 20;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "xx系列";
-            // 
-            // xx3
-            // 
-            this.xx3.AutoSize = true;
-            this.xx3.Location = new System.Drawing.Point(125, 72);
-            this.xx3.Name = "xx3";
-            this.xx3.Size = new System.Drawing.Size(62, 18);
-            this.xx3.TabIndex = 4;
-            this.xx3.Text = "xx三号";
-            this.xx3.UseVisualStyleBackColor = true;
-            // 
-            // xx103
-            // 
-            this.xx103.AutoSize = true;
-            this.xx103.Location = new System.Drawing.Point(22, 116);
-            this.xx103.Name = "xx103";
-            this.xx103.Size = new System.Drawing.Size(76, 18);
-            this.xx103.TabIndex = 2;
-            this.xx103.Text = "xx一号03";
-            this.xx103.UseVisualStyleBackColor = true;
-            // 
-            // xx2
-            // 
-            this.xx2.AutoSize = true;
-            this.xx2.Location = new System.Drawing.Point(125, 28);
-            this.xx2.Name = "xx2";
-            this.xx2.Size = new System.Drawing.Size(62, 18);
-            this.xx2.TabIndex = 3;
-            this.xx2.Text = "xx二号";
-            this.xx2.UseVisualStyleBackColor = true;
-            // 
-            // xx101
-            // 
-            this.xx101.AutoSize = true;
-            this.xx101.Location = new System.Drawing.Point(22, 28);
-            this.xx101.Name = "xx101";
-            this.xx101.Size = new System.Drawing.Size(76, 18);
-            this.xx101.TabIndex = 0;
-            this.xx101.Text = "xx一号01";
-            this.xx101.UseVisualStyleBackColor = true;
-            // 
-            // xx102
-            // 
-            this.xx102.AutoSize = true;
-            this.xx102.Location = new System.Drawing.Point(22, 72);
-            this.xx102.Name = "xx102";
-            this.xx102.Size = new System.Drawing.Size(76, 18);
-            this.xx102.TabIndex = 1;
-            this.xx102.Text = "xx一号02";
-            this.xx102.UseVisualStyleBackColor = true;
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Controls.Add(this.start205);
-            this.groupBox10.Controls.Add(this.start204);
-            this.groupBox10.Controls.Add(this.start203);
-            this.groupBox10.Controls.Add(this.start202);
-            this.groupBox10.Controls.Add(this.start206);
-            this.groupBox10.Controls.Add(this.start201);
-            this.groupBox10.Controls.Add(this.start1);
-            this.groupBox10.Location = new System.Drawing.Point(815, 182);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(201, 155);
-            this.groupBox10.TabIndex = 19;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "**系列";
-            // 
-            // start205
-            // 
-            this.start205.AutoSize = true;
-            this.start205.Location = new System.Drawing.Point(110, 58);
-            this.start205.Name = "start205";
-            this.start205.Size = new System.Drawing.Size(78, 18);
-            this.start205.TabIndex = 6;
-            this.start205.Text = "**二号05";
-            this.start205.UseVisualStyleBackColor = true;
-            // 
-            // start204
-            // 
-            this.start204.AutoSize = true;
-            this.start204.Location = new System.Drawing.Point(110, 28);
-            this.start204.Name = "start204";
-            this.start204.Size = new System.Drawing.Size(78, 18);
-            this.start204.TabIndex = 5;
-            this.start204.Text = "**二号04";
-            this.start204.UseVisualStyleBackColor = true;
-            // 
-            // start203
-            // 
-            this.start203.AutoSize = true;
-            this.start203.Location = new System.Drawing.Point(21, 118);
-            this.start203.Name = "start203";
-            this.start203.Size = new System.Drawing.Size(78, 18);
-            this.start203.TabIndex = 4;
-            this.start203.Text = "**二号03";
-            this.start203.UseVisualStyleBackColor = true;
-            // 
-            // start202
-            // 
-            this.start202.AutoSize = true;
-            this.start202.Location = new System.Drawing.Point(21, 88);
-            this.start202.Name = "start202";
-            this.start202.Size = new System.Drawing.Size(78, 18);
-            this.start202.TabIndex = 3;
-            this.start202.Text = "**二号02";
-            this.start202.UseVisualStyleBackColor = true;
-            // 
-            // start206
-            // 
-            this.start206.AutoSize = true;
-            this.start206.Location = new System.Drawing.Point(110, 88);
-            this.start206.Name = "start206";
-            this.start206.Size = new System.Drawing.Size(78, 18);
-            this.start206.TabIndex = 2;
-            this.start206.Text = "**二号06";
-            this.start206.UseVisualStyleBackColor = true;
-            // 
-            // start201
-            // 
-            this.start201.AutoSize = true;
-            this.start201.Location = new System.Drawing.Point(21, 58);
-            this.start201.Name = "start201";
-            this.start201.Size = new System.Drawing.Size(78, 18);
-            this.start201.TabIndex = 1;
-            this.start201.Text = "**二号01";
-            this.start201.UseVisualStyleBackColor = true;
-            // 
-            // start1
-            // 
-            this.start1.AutoSize = true;
-            this.start1.Location = new System.Drawing.Point(21, 28);
-            this.start1.Name = "start1";
-            this.start1.Size = new System.Drawing.Size(64, 18);
-            this.start1.TabIndex = 0;
-            this.start1.Text = "**一号";
-            this.start1.UseVisualStyleBackColor = true;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.FY4);
-            this.groupBox7.Controls.Add(this.FY3D);
-            this.groupBox7.Controls.Add(this.FY3C);
-            this.groupBox7.Location = new System.Drawing.Point(396, 182);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(134, 155);
-            this.groupBox7.TabIndex = 18;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "风云系列";
-            // 
-            // FY4
-            // 
-            this.FY4.AutoSize = true;
-            this.FY4.Location = new System.Drawing.Point(33, 118);
-            this.FY4.Name = "FY4";
-            this.FY4.Size = new System.Drawing.Size(51, 18);
-            this.FY4.TabIndex = 2;
-            this.FY4.Text = "FY-4";
-            this.FY4.UseVisualStyleBackColor = true;
-            // 
-            // FY3D
-            // 
-            this.FY3D.AutoSize = true;
-            this.FY3D.Location = new System.Drawing.Point(33, 73);
-            this.FY3D.Name = "FY3D";
-            this.FY3D.Size = new System.Drawing.Size(59, 18);
-            this.FY3D.TabIndex = 1;
-            this.FY3D.Text = "FY-3D";
-            this.FY3D.UseVisualStyleBackColor = true;
-            // 
-            // FY3C
-            // 
-            this.FY3C.AutoSize = true;
-            this.FY3C.Location = new System.Drawing.Point(33, 28);
-            this.FY3C.Name = "FY3C";
-            this.FY3C.Size = new System.Drawing.Size(58, 18);
-            this.FY3C.TabIndex = 0;
-            this.FY3C.Text = "FY-3C";
-            this.FY3C.UseVisualStyleBackColor = true;
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.GF7);
-            this.groupBox6.Controls.Add(this.ZY302);
-            this.groupBox6.Controls.Add(this.ZY301);
-            this.groupBox6.Location = new System.Drawing.Point(224, 182);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(134, 155);
-            this.groupBox6.TabIndex = 17;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "资源系列";
-            // 
-            // GF7
-            // 
-            this.GF7.AutoSize = true;
-            this.GF7.Location = new System.Drawing.Point(33, 118);
-            this.GF7.Name = "GF7";
-            this.GF7.Size = new System.Drawing.Size(51, 18);
-            this.GF7.TabIndex = 2;
-            this.GF7.Text = "GF-7";
-            this.GF7.UseVisualStyleBackColor = true;
-            // 
-            // ZY302
-            // 
-            this.ZY302.AutoSize = true;
-            this.ZY302.Location = new System.Drawing.Point(33, 73);
-            this.ZY302.Name = "ZY302";
-            this.ZY302.Size = new System.Drawing.Size(70, 18);
-            this.ZY302.TabIndex = 1;
-            this.ZY302.Text = "ZY-3 02";
-            this.ZY302.UseVisualStyleBackColor = true;
-            // 
-            // ZY301
-            // 
-            this.ZY301.AutoSize = true;
-            this.ZY301.Location = new System.Drawing.Point(33, 28);
-            this.ZY301.Name = "ZY301";
-            this.ZY301.Size = new System.Drawing.Size(70, 18);
-            this.ZY301.TabIndex = 0;
-            this.ZY301.Text = "ZY-3 01";
-            this.ZY301.UseVisualStyleBackColor = true;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.GF3);
-            this.groupBox5.Controls.Add(this.HY2B);
-            this.groupBox5.Controls.Add(this.HY2A);
-            this.groupBox5.Controls.Add(this.HY1C);
-            this.groupBox5.Location = new System.Drawing.Point(40, 182);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(134, 155);
-            this.groupBox5.TabIndex = 16;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "海洋系列";
-            // 
-            // GF3
-            // 
-            this.GF3.AutoSize = true;
-            this.GF3.Location = new System.Drawing.Point(22, 118);
-            this.GF3.Name = "GF3";
-            this.GF3.Size = new System.Drawing.Size(51, 18);
-            this.GF3.TabIndex = 3;
-            this.GF3.Text = "GF-3";
-            this.GF3.UseVisualStyleBackColor = true;
-            // 
-            // HY2B
-            // 
-            this.HY2B.AutoSize = true;
-            this.HY2B.Location = new System.Drawing.Point(22, 88);
-            this.HY2B.Name = "HY2B";
-            this.HY2B.Size = new System.Drawing.Size(60, 18);
-            this.HY2B.TabIndex = 2;
-            this.HY2B.Text = "HY-2B";
-            this.HY2B.UseVisualStyleBackColor = true;
-            // 
-            // HY2A
-            // 
-            this.HY2A.AutoSize = true;
-            this.HY2A.Location = new System.Drawing.Point(22, 58);
-            this.HY2A.Name = "HY2A";
-            this.HY2A.Size = new System.Drawing.Size(61, 18);
-            this.HY2A.TabIndex = 1;
-            this.HY2A.Text = "HY-2A";
-            this.HY2A.UseVisualStyleBackColor = true;
-            // 
-            // HY1C
-            // 
-            this.HY1C.AutoSize = true;
-            this.HY1C.Location = new System.Drawing.Point(22, 28);
-            this.HY1C.Name = "HY1C";
-            this.HY1C.Size = new System.Drawing.Size(60, 18);
-            this.HY1C.TabIndex = 0;
-            this.HY1C.Text = "HY-1C";
-            this.HY1C.UseVisualStyleBackColor = true;
-            // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label21.Location = new System.Drawing.Point(-4, 1);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(1068, 31);
-            this.label21.TabIndex = 6;
-            this.label21.Text = "统计分析";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Location = new System.Drawing.Point(-1, 54);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.treeView1);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.analysisdataGridView);
-            this.splitContainer1.Size = new System.Drawing.Size(1061, 335);
-            this.splitContainer1.SplitterDistance = 145;
-            this.splitContainer1.TabIndex = 7;
-            // 
-            // treeView1
-            // 
-            this.treeView1.Location = new System.Drawing.Point(3, 3);
-            this.treeView1.Name = "treeView1";
-            treeNode1.Name = "节点1";
-            treeNode1.Text = "空间性能";
-            treeNode2.Name = "节点2";
-            treeNode2.Text = "时间性能";
-            treeNode3.Name = "节点3";
-            treeNode3.Text = "光谱性能";
-            treeNode4.Name = "节点4";
-            treeNode4.Text = "辐射性能";
-            treeNode5.Name = "节点5";
-            treeNode5.Text = "精度评定";
-            treeNode6.Name = "节点0";
-            treeNode6.Text = "基础性能";
-            treeNode7.Name = "节点7";
-            treeNode7.Text = "覆盖时效性能";
-            treeNode8.Name = "节点8";
-            treeNode8.Text = "覆盖空间性能";
-            treeNode9.Name = "节点6";
-            treeNode9.Text = "覆盖性能";
-            treeNode10.Name = "节点12";
-            treeNode10.Text = "数据获取";
-            treeNode11.Name = "节点13";
-            treeNode11.Text = "数据传输";
-            treeNode12.Name = "节点14";
-            treeNode12.Text = "数据处理";
-            treeNode13.Name = "节点11";
-            treeNode13.Text = "信息性能";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode6,
-            treeNode9,
-            treeNode13});
-            this.treeView1.Size = new System.Drawing.Size(139, 329);
-            this.treeView1.TabIndex = 8;
-            // 
-            // analysisdataGridView
-            // 
-            this.analysisdataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.analysisdataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.analysisdataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
-            this.analysisdataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.analysisdataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn33,
-            this.dataGridViewTextBoxColumn34,
-            this.dataGridViewTextBoxColumn35,
-            this.dataGridViewTextBoxColumn36,
-            this.dataGridViewTextBoxColumn37});
-            this.analysisdataGridView.Location = new System.Drawing.Point(3, 3);
-            this.analysisdataGridView.Name = "analysisdataGridView";
-            this.analysisdataGridView.RowHeadersVisible = false;
-            this.analysisdataGridView.RowTemplate.Height = 23;
-            this.analysisdataGridView.Size = new System.Drawing.Size(906, 329);
-            this.analysisdataGridView.TabIndex = 33;
-            // 
-            // dataGridViewTextBoxColumn33
-            // 
-            this.dataGridViewTextBoxColumn33.HeaderText = "评估性能指标";
-            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
-            // 
-            // dataGridViewTextBoxColumn34
-            // 
-            this.dataGridViewTextBoxColumn34.HeaderText = "分布";
-            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
-            // 
-            // dataGridViewTextBoxColumn35
-            // 
-            this.dataGridViewTextBoxColumn35.HeaderText = "最高值";
-            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
-            // 
-            // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.HeaderText = "最低值";
-            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            // 
-            // dataGridViewTextBoxColumn37
-            // 
-            this.dataGridViewTextBoxColumn37.HeaderText = "平均值";
-            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
-            // 
-            // label22
-            // 
-            this.label22.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label22.Location = new System.Drawing.Point(-4, 405);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(1068, 31);
-            this.label22.TabIndex = 8;
-            this.label22.Text = "归一化指标";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // groupBox16
-            // 
-            this.groupBox16.Controls.Add(this.commentdataGrid);
-            this.groupBox16.Controls.Add(this.AHPFCEresult);
-            this.groupBox16.Controls.Add(this.groupBox8);
-            this.groupBox16.Controls.Add(this.AHPFCEBtn);
-            this.groupBox16.Location = new System.Drawing.Point(305, 516);
-            this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(732, 352);
-            this.groupBox16.TabIndex = 31;
-            this.groupBox16.TabStop = false;
-            this.groupBox16.Text = "AHP-FCE评估";
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.m3box);
-            this.groupBox8.Controls.Add(this.pictureBox1);
-            this.groupBox8.Controls.Add(this.m2box);
-            this.groupBox8.Controls.Add(this.m1box);
-            this.groupBox8.Controls.Add(this.m1);
-            this.groupBox8.Controls.Add(this.m3);
-            this.groupBox8.Controls.Add(this.m2);
-            this.groupBox8.Location = new System.Drawing.Point(10, 22);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(395, 276);
-            this.groupBox8.TabIndex = 16;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "隶属度参数设置";
-            // 
-            // m3box
-            // 
-            this.m3box.Location = new System.Drawing.Point(338, 175);
-            this.m3box.Name = "m3box";
-            this.m3box.Size = new System.Drawing.Size(50, 22);
-            this.m3box.TabIndex = 22;
-            this.m3box.Text = "0.75";
-            this.m3box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(17, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(272, 244);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // m2box
-            // 
-            this.m2box.Location = new System.Drawing.Point(338, 125);
-            this.m2box.Name = "m2box";
-            this.m2box.Size = new System.Drawing.Size(50, 22);
-            this.m2box.TabIndex = 21;
-            this.m2box.Text = "0.5";
-            this.m2box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // m1box
-            // 
-            this.m1box.Location = new System.Drawing.Point(338, 75);
-            this.m1box.Name = "m1box";
-            this.m1box.Size = new System.Drawing.Size(50, 22);
-            this.m1box.TabIndex = 20;
-            this.m1box.Text = "0.25";
-            this.m1box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // m1
-            // 
-            this.m1.Location = new System.Drawing.Point(295, 77);
-            this.m1.Name = "m1";
-            this.m1.Size = new System.Drawing.Size(41, 18);
-            this.m1.TabIndex = 17;
-            this.m1.Text = "m1:";
-            this.m1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // m3
-            // 
-            this.m3.Location = new System.Drawing.Point(295, 177);
-            this.m3.Name = "m3";
-            this.m3.Size = new System.Drawing.Size(41, 18);
-            this.m3.TabIndex = 19;
-            this.m3.Text = "m3:";
-            this.m3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // m2
-            // 
-            this.m2.Location = new System.Drawing.Point(295, 127);
-            this.m2.Name = "m2";
-            this.m2.Size = new System.Drawing.Size(41, 18);
-            this.m2.TabIndex = 18;
-            this.m2.Text = "m2:";
-            this.m2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // AHPFCEBtn
-            // 
-            this.AHPFCEBtn.Location = new System.Drawing.Point(487, 41);
-            this.AHPFCEBtn.Name = "AHPFCEBtn";
-            this.AHPFCEBtn.Size = new System.Drawing.Size(100, 40);
-            this.AHPFCEBtn.TabIndex = 17;
-            this.AHPFCEBtn.Text = "AHP-FCE计算";
-            this.AHPFCEBtn.UseVisualStyleBackColor = true;
-            this.AHPFCEBtn.Click += new System.EventHandler(this.AHPFCEBtn_Click);
-            // 
-            // groupBox15
-            // 
-            this.groupBox15.Controls.Add(this.AHPresult);
-            this.groupBox15.Controls.Add(this.lastresult);
-            this.groupBox15.Controls.Add(this.button3);
-            this.groupBox15.Location = new System.Drawing.Point(19, 643);
-            this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(256, 80);
-            this.groupBox15.TabIndex = 30;
-            this.groupBox15.TabStop = false;
-            this.groupBox15.Text = "AHP评估";
-            // 
-            // lastresult
-            // 
-            this.lastresult.Location = new System.Drawing.Point(412, 344);
-            this.lastresult.Name = "lastresult";
-            this.lastresult.Size = new System.Drawing.Size(100, 40);
-            this.lastresult.TabIndex = 19;
-            this.lastresult.Text = "我是结果";
-            this.lastresult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(20, 23);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 40);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "AHP计算";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // AHPresult
-            // 
-            this.AHPresult.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.AHPresult.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.AHPresult.Location = new System.Drawing.Point(138, 23);
-            this.AHPresult.Name = "AHPresult";
-            this.AHPresult.Size = new System.Drawing.Size(100, 40);
-            this.AHPresult.TabIndex = 32;
-            this.AHPresult.Text = "评估结果";
-            this.AHPresult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // commentdataGrid
-            // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.commentdataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
-            this.commentdataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.commentdataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.commentdataGrid.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.commentdataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.commentdataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.commentdataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn49,
-            this.dataGridViewTextBoxColumn50,
-            this.dataGridViewTextBoxColumn51,
-            this.dataGridViewTextBoxColumn52,
-            this.dataGridViewTextBoxColumn53});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.commentdataGrid.DefaultCellStyle = dataGridViewCellStyle12;
-            this.commentdataGrid.Location = new System.Drawing.Point(413, 125);
-            this.commentdataGrid.Name = "commentdataGrid";
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.commentdataGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.commentdataGrid.RowHeadersVisible = false;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.commentdataGrid.RowsDefaultCellStyle = dataGridViewCellStyle14;
-            this.commentdataGrid.RowTemplate.Height = 23;
-            this.commentdataGrid.Size = new System.Drawing.Size(303, 42);
-            this.commentdataGrid.TabIndex = 36;
-            // 
-            // dataGridViewTextBoxColumn49
-            // 
-            this.dataGridViewTextBoxColumn49.HeaderText = "差";
-            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
-            // 
-            // dataGridViewTextBoxColumn50
-            // 
-            this.dataGridViewTextBoxColumn50.HeaderText = "较差";
-            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
-            // 
-            // dataGridViewTextBoxColumn51
-            // 
-            this.dataGridViewTextBoxColumn51.HeaderText = "一般";
-            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
-            // 
-            // dataGridViewTextBoxColumn52
-            // 
-            this.dataGridViewTextBoxColumn52.HeaderText = "良";
-            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
-            // 
-            // dataGridViewTextBoxColumn53
-            // 
-            this.dataGridViewTextBoxColumn53.HeaderText = "优";
-            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
-            // 
-            // AHPFCEresult
-            // 
-            this.AHPFCEresult.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.AHPFCEresult.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.AHPFCEresult.Location = new System.Drawing.Point(514, 219);
-            this.AHPFCEresult.Name = "AHPFCEresult";
-            this.AHPFCEresult.Size = new System.Drawing.Size(100, 40);
-            this.AHPFCEresult.TabIndex = 35;
-            this.AHPFCEresult.Text = "评估结果";
-            this.AHPFCEresult.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // performanceEvaluation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -4978,10 +4979,41 @@
             this.Text = "环境卫星效能评估系统";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
+            this.tabPage9.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.analysisdataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.normalizedDatagrid2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.normalizedDatagrid1)).EndInit();
             this.tabPage4.ResumeLayout(false);
+            this.groupBox16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.commentdataGrid)).EndInit();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox15.ResumeLayout(false);
             this.AHPpanel2.ResumeLayout(false);
             this.AHPpanel2.PerformLayout();
             this.AHPpanel1.ResumeLayout(false);
@@ -5009,37 +5041,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.AHPdataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AHPdataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AHPdataGridView3)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.analysisdataGridView)).EndInit();
-            this.groupBox16.ResumeLayout(false);
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox15.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.commentdataGrid)).EndInit();
             this.ResumeLayout(false);
 
         }
