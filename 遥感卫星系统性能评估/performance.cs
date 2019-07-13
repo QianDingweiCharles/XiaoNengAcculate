@@ -2709,6 +2709,11 @@ namespace 遥感卫星系统性能评估
 
         }
 
+        private void groupBox18_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private double[] starLandEffVector;
         private double[] appSatisifyEffVector;
         private double[] coverRangeEffVector;
