@@ -1809,18 +1809,16 @@ namespace 遥感卫星系统性能评估
                     index = i;
                 }
             }
-            MessageBox.Show(Evaluation[index].ToString());
-            //double[,]W= AHPFCE();
-            //string str = "";
-            //for (int i = 0; i < W.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < W.GetLength(1); j++)
-            //    {
-            //        str = str + W[i, j]+"!";
-            //    }
-            //    str = str + "\n";
-            //}
-            //MessageBox.Show(str);
+            for (int i = 0; i < W.Length; i++)
+            {
+                if (W[i] > Max)
+                {
+                    Max = W[i];
+                    index = i;
+                }
+                commentdataGrid.Rows[0].Cells[i].Value = W[i].ToString("f3");
+            }
+            AHPFCEresult.Text = "评估结果：" + Evaluation[index].ToString();
         }
         public double[] W11spce;
         public double[] W14radiation;
