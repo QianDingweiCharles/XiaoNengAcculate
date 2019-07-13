@@ -2694,26 +2694,6 @@ namespace 遥感卫星系统性能评估
 
         private double[] appEffVector;
 
-        private void tabPage9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void normalizedDatagrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void appEffBtn2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox18_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private double[] starLandEffVector;
         private double[] appSatisifyEffVector;
         private double[] coverRangeEffVector;
